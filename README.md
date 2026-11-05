@@ -91,14 +91,14 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.7.0 · Beacon Passage** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.7.0-pilot) |
+| **Device pilot** | **2.7.1 · Quiet Cadence** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.7.1-pilot) |
 
 <details>
-<summary><strong>What changed in Beacon Passage</strong></summary>
+<summary><strong>What changed in Quiet Cadence</strong></summary>
 
-This update adds optional pilot updates from GitHub, a shared daily check cooldown, manual checks, release notes, download progress, and native Android installation.
+This update brings a consistent type system across Personal, Together, and All. Outfit carries primary text and prominent balances, Plus Jakarta Sans supplies interface labels, and Geist Mono aligns financial comparisons.
 
-Each downloaded APK is checked for size, checksum, identity, version, and cryptographic signing continuity before installation.
+Fonts are bundled for offline use. Tabular figures, restrained numerical weights, and width fitting help account balances remain readable, while the custom Rufiyaa glyph retains its existing font.
 
 Pilot installation and financial acceptance are checked on the maintainer’s phone before wider distribution.
 
