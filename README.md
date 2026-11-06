@@ -91,12 +91,16 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.8.1 · Clear Anchorage** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.8.1-pilot) |
+| **Device pilot** | **2.9.0 · Tailored Canvas** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.9.0-pilot) |
 
 <details>
-<summary><strong>What changed in Clear Anchorage</strong></summary>
+<summary><strong>What changed in Tailored Canvas</strong></summary>
 
-This patch keeps MVR and USD reserved totals separate on Home, adds swipeable tiles for individual funded goals, and corrects the bottom action area on goal pages.
+Make Home your own: show, hide and reorder its cards, then optionally enable Upcoming Subscriptions, Budget Watch, Goal Highlights, Reserved Funds Check or Quick Actions. New cards start off, and existing layouts retain their order.
+
+Appearance gains opt-in custom accents, image framing, cached blur, shading, card separation, enhanced contrast, saved looks and section resets. Existing installations keep their current look until these controls are used.
+
+Goal search now floats on demand; the Home vault summary expands from a compact default. Full-page goal actions use corrected native window sizing.
 
 Goal Vaults have a dedicated dashboard, account-backed contributions, original-source withdrawals and an attributed history. Add categories, priority, target dates, descriptions, photos or HTTPS images, and optional contribution schedules. Pause, complete, reopen and archive goals while preserving reserved money and history.
 
