@@ -41,7 +41,7 @@ With permission, Keesa parses supported bank alerts on the device. Choose automa
 | Feature | What you can do |
 | :--- | :--- |
 | **Budgets and spending envelopes** | Set monthly limits by category, track what you’ve used, and see what’s left. Split receipts count toward the categories you assigned. |
-| **Goal Vaults** | Reserve money inside your existing balances, set a target date, and see projected weekly or monthly contributions. Allocate salary toward goals, envelopes, or other accounts. |
+| **Goal Vaults** | Account-backed reservations with contribution/withdrawal history, a dashboard, categories, priorities, target dates, images, optional schedules and lifecycle controls. Personal or shared ownership keeps spendable money separate. Allocate salary toward goals, envelopes, or other accounts. |
 | **Subscriptions and commitments** | View upcoming payments in a calendar or list, check daily agendas and payment status, and log subscription renewals when you pay. |
 | **Loans and financing** | Track facilities, due dates, linked debit accounts, and repayments. Use conventional APR or Murabaha calculations when setting up a facility and maintain the outstanding balance manually. |
 | **Spending intelligence** | Explore MVR, USD, and combined trends. See which categories drove changes, how recurring payments add up, and how quickly envelopes are being used. Tap through to the supporting transactions. |
@@ -91,14 +91,18 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.7.2 · Velvet Current** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.7.2-pilot) |
+| **Device pilot** | **2.8.0 · Anchored Horizons** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.8.0-pilot) |
 
 <details>
-<summary><strong>What changed in Velvet Current</strong></summary>
+<summary><strong>What changed in Anchored Horizons</strong></summary>
 
-This pilot refines how Keesa moves: buttons respond on touch-down, lists keep their momentum after a flick, and edge pulls return on a spring. Continuous corner contours preserve the familiar cards and controls.
+Goal Vaults now have a dedicated dashboard, account-backed contributions, original-source withdrawals and an attributed history. Add categories, priority, target dates, descriptions, photos or HTTPS images, and optional contribution schedules. Pause, complete, reopen and archive goals while preserving reserved money and history.
 
-Home gains swipe-linked stretching page indicators and a gentler animated quick-action hub. The transaction FAB and space selector appear only on Home and Ledger, and leaving the Ledger clears bulk selection. Empty Goal Vault summaries stay hidden, the exchange-rate pill fits its text, and About puts What’s New above Pilot Updates.
+Personal funds stay private. Shared vaults use shared accounts, atomic confirmation and durable Pending requests when offline. Reservations reduce spendable money without changing bank balances or creating wealth. Older funded goals keep their opening amount and ask for backing-account assignment.
+
+This pilot also restores native scrolling momentum, fixes Back navigation and keyboard-safe beneficiary actions, closes Ledger FAB actions on interaction, and keeps encrypted local form drafts.
+
+> Both partners should update before using enhanced shared vaults. Automatic reservations are in-app allocations, not bank payment instructions. Uploaded goal photos stay on their device; icons and HTTPS image URLs can be shared.
 
 Pilot installation and financial acceptance are checked on the maintainer’s phone before wider distribution.
 
@@ -134,3 +138,4 @@ Pilot builds are prepared locally. Test a new pilot on your own phone before dis
 ---
 
 <p align="center"><sub>Created by Ahmed Solah · Built for the Maldives</sub></p>
+
