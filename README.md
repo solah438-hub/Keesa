@@ -91,12 +91,14 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.8.0 · Anchored Horizons** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.8.0-pilot) |
+| **Device pilot** | **2.8.1 · Clear Anchorage** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.8.1-pilot) |
 
 <details>
-<summary><strong>What changed in Anchored Horizons</strong></summary>
+<summary><strong>What changed in Clear Anchorage</strong></summary>
 
-Goal Vaults now have a dedicated dashboard, account-backed contributions, original-source withdrawals and an attributed history. Add categories, priority, target dates, descriptions, photos or HTTPS images, and optional contribution schedules. Pause, complete, reopen and archive goals while preserving reserved money and history.
+This patch keeps MVR and USD reserved totals separate on Home, adds swipeable tiles for individual funded goals, and corrects the bottom action area on goal pages.
+
+Goal Vaults have a dedicated dashboard, account-backed contributions, original-source withdrawals and an attributed history. Add categories, priority, target dates, descriptions, photos or HTTPS images, and optional contribution schedules. Pause, complete, reopen and archive goals while preserving reserved money and history.
 
 Personal funds stay private. Shared vaults use shared accounts, atomic confirmation and durable Pending requests when offline. Reservations reduce spendable money without changing bank balances or creating wealth. Older funded goals keep their opening amount and ask for backing-account assignment.
 
