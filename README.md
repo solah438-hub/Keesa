@@ -91,14 +91,14 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.7.1 · Quiet Cadence** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.7.1-pilot) |
+| **Device pilot** | **2.7.2 · Velvet Current** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.7.2-pilot) |
 
 <details>
-<summary><strong>What changed in Quiet Cadence</strong></summary>
+<summary><strong>What changed in Velvet Current</strong></summary>
 
-This update brings a consistent type system across Personal, Together, and All. Outfit carries primary text and prominent balances, Plus Jakarta Sans supplies interface labels, and Geist Mono aligns financial comparisons.
+This pilot refines how Keesa moves: buttons respond on touch-down, lists keep their momentum after a flick, and edge pulls return on a spring. Continuous corner contours preserve the familiar cards and controls.
 
-Fonts are bundled for offline use. Tabular figures, restrained numerical weights, and width fitting help account balances remain readable, while the custom Rufiyaa glyph retains its existing font.
+Home gains swipe-linked stretching page indicators and a gentler animated quick-action hub. The transaction FAB and space selector appear only on Home and Ledger, and leaving the Ledger clears bulk selection. Empty Goal Vault summaries stay hidden, the exchange-rate pill fits its text, and About puts What’s New above Pilot Updates.
 
 Pilot installation and financial acceptance are checked on the maintainer’s phone before wider distribution.
 
