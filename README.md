@@ -91,10 +91,18 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.9.0 · Tailored Canvas** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.9.0-pilot) |
+| **Device pilot** | **2.10.0 · Earned Horizons** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.10.0-pilot) |
 
 <details>
-<summary><strong>What changed in Tailored Canvas</strong></summary>
+<summary><strong>What changed in Earned Horizons</strong></summary>
+
+Completed goals now keep an achievement record after you approve releasing their reserved money. Release restores spendable allocation to the original accounts without creating income or changing bank balances. Goals remain visible as completed until you archive them. Shared releases are attributed and safely confirmed; both partners should update before using the enhanced lifecycle.
+
+Pilot reminders progress through fifteen daily messages and stop after the last one. Downloads remain optional, and reminders pause during download or installation. Native notifications have a safe in-app fallback.
+
+The new **What does it cost in work time?** Home card starts off. Set one monthly base salary and compare MVR or USD item prices in minutes, hours, workdays and months, using a clearly stated 22-day/8-hour estimate. Salary settings stay on your device and never add ledger income.
+
+Firebase ruleset updated; existing installations retain their data through an explicit storage migration.
 
 Make Home your own: show, hide and reorder its cards, then optionally enable Upcoming Subscriptions, Budget Watch, Goal Highlights, Reserved Funds Check or Quick Actions. New cards start off, and existing layouts retain their order.
 
