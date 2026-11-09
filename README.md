@@ -91,34 +91,22 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.10.0 · Earned Horizons** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.10.0-pilot) |
+| **Device pilot** | **2.11.0 · Familiar Bearings** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.11.0-pilot) |
 
 <details>
-<summary><strong>What changed in Earned Horizons</strong></summary>
+<summary><strong>What changed in Familiar Bearings</strong></summary>
 
-Completed goals now keep an achievement record after you approve releasing their reserved money. Release restores spendable allocation to the original accounts without creating income or changing bank balances. Goals remain visible as completed until you archive them. Shared releases are attributed and safely confirmed; both partners should update before using the enhanced lifecycle.
+Put a familiar face beside your transactions: Home and Ledger use beneficiary photos when available, with the original type icon as a fallback. Recent Home transactions have tighter spacing, and a restrained spring entrance follows PIN or fingerprint unlock.
 
-Pilot reminders progress through fifteen daily messages and stop after the last one. Downloads remain optional, and reminders pause during download or installation. Native notifications have a safe in-app fallback.
+**Your accounts, your order.** Arrange Personal accounts under Settings → Accounts & Balances. Save once to update the Home balance pager and Bank Accounts & Wallets carousel, without changing balances or records.
 
-The new **What does it cost in work time?** Home card starts off. Set one monthly base salary and compare MVR or USD item prices in minutes, hours, workdays and months, using a clearly stated 22-day/8-hour estimate. Salary settings stay on your device and never add ledger income.
+**Beneficiary categories that fit your life.** Create, rename and remove custom types from Beneficiaries → Manage category types. Private categories stay on device; shared category labels reach your partner. Removing a type uses Other and preserves beneficiaries and transaction history.
 
-Firebase ruleset updated; existing installations retain their data through an explicit storage migration.
+**A clear setup path.** After the SMS explanation, optional steps cover Android installation access for in-app updates, finance notifications and a private Auto SMS account. Existing choices stay intact. Not now leaves a dismissible Finish feature setup entry in Settings, with one gentle reminder after 24 hours if notifications are allowed. About Keesa provides a permanent review route.
 
-Make Home your own: show, hide and reorder its cards, then optionally enable Upcoming Subscriptions, Budget Watch, Goal Highlights, Reserved Funds Check or Quick Actions. New cards start off, and existing layouts retain their order.
+Existing appearance, Home layout, saving reservations, financial calculations and APK verification are retained. Firebase ruleset updated; an explicit storage migration preserves existing data.
 
-Appearance gains opt-in custom accents, image framing, cached blur, shading, card separation, enhanced contrast, saved looks and section resets. Existing installations keep their current look until these controls are used.
-
-Goal search now floats on demand; the Home vault summary expands from a compact default. Full-page goal actions use corrected native window sizing.
-
-Goal Vaults have a dedicated dashboard, account-backed contributions, original-source withdrawals and an attributed history. Add categories, priority, target dates, descriptions, photos or HTTPS images, and optional contribution schedules. Pause, complete, reopen and archive goals while preserving reserved money and history.
-
-Personal funds stay private. Shared vaults use shared accounts, atomic confirmation and durable Pending requests when offline. Reservations reduce spendable money without changing bank balances or creating wealth. Older funded goals keep their opening amount and ask for backing-account assignment.
-
-This pilot also restores native scrolling momentum, fixes Back navigation and keyboard-safe beneficiary actions, closes Ledger FAB actions on interaction, and keeps encrypted local form drafts.
-
-> Both partners should update before using enhanced shared vaults. Automatic reservations are in-app allocations, not bank payment instructions. Uploaded goal photos stay on their device; icons and HTTPS image URLs can be shared.
-
-Pilot installation and financial acceptance are checked on the maintainer’s phone before wider distribution.
+> Both partners should update before managing new shared beneficiary categories. Personal records and uploaded beneficiary photos remain private/device-local. Pilot acceptance is performed manually before wider distribution.
 
 </details>
 
