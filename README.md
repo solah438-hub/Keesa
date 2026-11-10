@@ -67,7 +67,7 @@ Keep your private finances and a two-person household workspace in one app. Swit
 
 - **App lock.** Set a local PIN, configure inactivity locking, and enable fingerprint unlock on supported devices. The Danger Zone offers a separate PIN-confirmed option to clear this device’s Keesa data.
 - **Backup and portability.** Export or import ledger data using CSV and JSON, export a readable financial statement, or use a passphrase-encrypted vault to back up and restore the financial database. Receipt images and app preferences are stored separately from the vault backup.
-- **Make it yours.** Open Personalization Studio for light/dark/system appearance, island palettes and wallpapers, custom images, saved looks, per-space icon collections, Home card ordering, Haptic Studio and device-wide Motion Preferences. Existing looks are retained until you explicitly change them.
+- **Make it yours.** Open Personalization Studio for light/dark/system appearance, island palettes and wallpapers, custom images, saved looks, per-space icon collections, Home card ordering, Haptic Studio, device-wide Motion Preferences and per-space Navigation Studio. Search nested Settings to find individual controls. Existing looks are retained until you explicitly change them.
 
 </details>
 
@@ -91,22 +91,23 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.15.0 · Tidal Cadence** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.15.0-pilot) |
+| **Device pilot** | **2.16.0 · Lagoon Compass** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.16.0-pilot) |
 
 <details>
-<summary><strong>What changed in Tidal Cadence</strong></summary>
+<summary><strong>What changed in Lagoon Compass</strong></summary>
 
-**Motion that follows your rhythm.** Settings → Personalization Studio → Motion Preferences brings Full, Balanced, Minimal and No Motion profiles, named custom profiles, staged previews and Apply, supported per-effect controls, spring/easing refinements and motion-only JSON export/import. Android accessibility limits take priority. Your current motion remains until you choose a change.
+**A familiar way home, in every space.** Settings → Personalization Studio → Navigation Studio adds eight coordinated designs and separate Personal, Together and All configurations. Your current navigation stays unchanged until you Apply.
 
-| Start with a profile | Shape the response | Keep it comfortable |
+| Choose a starting point | Make it yours | Find settings faster |
 | :--- | :--- | :--- |
-| Full, Balanced, Minimal or No Motion | Category defaults and individual supported effects | System-first reduced motion and decoration/parallax limits |
-| Duplicate and name custom profiles | Timing, easing, springs and a visual Bézier editor | Automatic Battery Saver and low-memory adaptation |
-| Export/import motion-only JSON | Preview, pause, replay and compare before Apply | Immediate financial values and readable working/error status |
+| Keesa Original, Floating Island or Floating Dock | Mix main navigation, secondary surface and FAB | Search feature names and follow breadcrumb results |
+| Living Wave, Contour Steps or Ribbon Flow | Reorder destinations and choose main/More placement | Motion effects grouped into focused studios and individual pages |
+| Horizon Carousel or Dhoni Passage | Bundled symbols, icon inheritance or navigation-only override | Nested Appearance, Dashboard, Haptics, Accounts and data controls |
+| Preview without touching your ledger | Named presets and navigation-only JSON import/export | Back returns through the category hierarchy |
 
-Your existing motion remains until an explicit Apply. New value highlights, selection highlights, slider feedback and illustration parallax are optional. Profiles are device-local across Personal, Together and All; they never change financial calculations, security checks or Firebase usage.
+Adaptive overflow keeps destinations reachable on smaller screens. Global Motion Preferences and Android accessibility limits remain in control; decorative effects stop when inactive. Existing seven app-wide icon collections remain independent of navigation designs.
 
-> Navigation Studio owns navigation designs. Android-owned dialogs and native menu/focus/ripple feedback retain platform behavior. Device acceptance remains manual before wider pilot distribution.
+> Financial calculations, local databases, Firebase sync, SMS processing and APK verification are unchanged. Install over the existing app; device acceptance remains manual before wider pilot distribution.
 
 </details>
 
