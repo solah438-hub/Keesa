@@ -67,7 +67,7 @@ Keep your private finances and a two-person household workspace in one app. Swit
 
 - **App lock.** Set a local PIN, configure inactivity locking, and enable fingerprint unlock on supported devices. The Danger Zone offers a separate PIN-confirmed option to clear this device’s Keesa data.
 - **Backup and portability.** Export or import ledger data using CSV and JSON, export a readable financial statement, or use a passphrase-encrypted vault to back up and restore the financial database. Receipt images and app preferences are stored separately from the vault backup.
-- **Make it yours.** Open Personalization Studio for light/dark/system appearance, island palettes and wallpapers, custom images, saved looks, per-space icon collections, Home card ordering and Haptic Studio. Existing looks are retained until you explicitly change them.
+- **Make it yours.** Open Personalization Studio for light/dark/system appearance, island palettes and wallpapers, custom images, saved looks, per-space icon collections, Home card ordering, Haptic Studio and device-wide Motion Preferences. Existing looks are retained until you explicitly change them.
 
 </details>
 
@@ -91,22 +91,22 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.14.0 · Quiet Coordinates** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.14.0-pilot) |
+| **Device pilot** | **2.15.0 · Tidal Cadence** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.15.0-pilot) |
 
 <details>
-<summary><strong>What changed in Quiet Coordinates</strong></summary>
+<summary><strong>What changed in Tidal Cadence</strong></summary>
 
-**A dashboard for each space.** Settings → Personalization Studio → Dashboard Layout now keeps separate Personal, Together and All preferences. Your current layout and visual defaults remain until you edit them.
+**Motion that follows your rhythm.** Settings → Personalization Studio → Motion Preferences brings Full, Balanced, Minimal and No Motion profiles, named custom profiles, staged previews and Apply, supported per-effect controls, spring/easing refinements and motion-only JSON export/import. Android accessibility limits take priority. Your current motion remains until you choose a change.
 
-| Visibility | Presentation | Behaviour |
+| Start with a profile | Shape the response | Keep it comfortable |
 | :--- | :--- | :--- |
-| Choose and order cards/sections; hide account tiles and individual details | Comfortable or Compact; per-card overrides and summaries | Start expanded, collapsed or remember the last card state |
-| Hide account balances while retaining privacy authentication | Control MVR/USD overview breakdowns, account counts and available/allocated figures | Start at top, a chosen section or a remembered position |
-| New Account wealth overview card, off by default | Recorded holdings, spendable and reserved money stay distinctly labelled | Restore one dashboard profile without changing the others |
+| Full, Balanced, Minimal or No Motion | Category defaults and individual supported effects | System-first reduced motion and decoration/parallax limits |
+| Duplicate and name custom profiles | Timing, easing, springs and a visual Bézier editor | Automatic Battery Saver and low-memory adaptation |
+| Export/import motion-only JSON | Preview, pause, replay and compare before Apply | Immediate financial values and readable working/error status |
 
-Hidden accounts still count in balances, reservations and reports, and remain available in transaction forms. Compact reduces spacing rather than shrinking text or touch targets. Card edits use explicit Save/Cancel, and scroll checkpoints are saved when scrolling settles.
+Your existing motion remains until an explicit Apply. New value highlights, selection highlights, slider feedback and illustration parallax are optional. Profiles are device-local across Personal, Together and All; they never change financial calculations, security checks or Firebase usage.
 
-> Customization changes presentation only. Total account wealth is not spendable wealth or net worth. Financial arithmetic, Room schema 12, Firebase/SMS and verified in-place updates remain unchanged. Device acceptance uses your own records before wider pilot distribution.
+> Navigation Studio owns navigation designs. Android-owned dialogs and native menu/focus/ripple feedback retain platform behavior. Device acceptance remains manual before wider pilot distribution.
 
 </details>
 
