@@ -67,7 +67,7 @@ Keep your private finances and a two-person household workspace in one app. Swit
 
 - **App lock.** Set a local PIN, configure inactivity locking, and enable fingerprint unlock on supported devices. The Danger Zone offers a separate PIN-confirmed option to clear this device’s Keesa data.
 - **Backup and portability.** Export or import ledger data using CSV and JSON, export a readable financial statement, or use a passphrase-encrypted vault to back up and restore the financial database. Receipt images and app preferences are stored separately from the vault backup.
-- **Make it yours.** Choose light, dark, or system appearance, a palette, and a textured slate, custom color, or photo background. Adjust brightness with a live preview and apply settings to one space or across spaces. Replay the illustrated onboarding tour from Settings.
+- **Make it yours.** Open Personalization Studio for light/dark/system appearance, island palettes and wallpapers, custom images, saved looks, per-space icon collections, Home card ordering and Haptic Studio. Existing looks are retained until you explicitly change them.
 
 </details>
 
@@ -91,22 +91,25 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.11.0 · Familiar Bearings** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.11.0-pilot) |
+| **Device pilot** | **2.12.0 · Atoll Atelier** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.12.0-pilot) |
 
 <details>
-<summary><strong>What changed in Familiar Bearings</strong></summary>
+<summary><strong>What changed in Atoll Atelier</strong></summary>
 
-Put a familiar face beside your transactions: Home and Ledger use beneficiary photos when available, with the original type icon as a fallback. Recent Home transactions have tighter spacing, and a restrained spring entrance follows PIN or fingerprint unlock.
+**Your spaces, your style.** Settings → Keesa Personalization Studio brings appearance, dashboard layout, navigation, transaction presentation, privacy and interaction into one place. Your current look stays intact until you choose a change.
 
-**Your accounts, your order.** Arrange Personal accounts under Settings → Accounts & Balances. Save once to update the Home balance pager and Bank Accounts & Wallets carousel, without changing balances or records.
+| Studio | Make it yours |
+| :--- | :--- |
+| **Appearance & Themes** | Ten Maldivian island palettes, each with an original illustrated wallpaper or matching textured solid. Keep custom images, framing, brightness, blur, card separation, accent and saved presets. |
+| **Dashboard Layout** | Show, hide and reorder Home cards; arrange Personal accounts for the balance pager and account carousel; choose the spendable display. |
+| **Navigation Studio** | Choose Keesa Original, Duotone, Solid, Soft Form, Prestige, Geometric or Dhivehi Heritage independently for Personal, Together and All. |
+| **Transaction Preferences** | Choose recent-list order; future presentation controls are marked Coming Soon. |
+| **Privacy & Interaction** | Authenticated amount masking and Haptic Studio: touch, navigation, PIN, menus, successful saves, errors and supported animation cues, with previews and hardware-aware strength. |
+| **Motion Preferences** | Coming Soon. Existing Keesa motion stays in place. |
 
-**Beneficiary categories that fit your life.** Create, rename and remove custom types from Beneficiaries → Manage category types. Private categories stay on device; shared category labels reach your partner. Removing a type uses Other and preserves beneficiaries and transaction history.
+A skippable customization tour introduces the Studio and can be replayed there. Update notes now use readable release-history sections, and the installation confirmation explains **Continue** and **What's New**.
 
-**A clear setup path.** After the SMS explanation, optional steps cover Android installation access for in-app updates, finance notifications and a private Auto SMS account. Existing choices stay intact. Not now leaves a dismissible Finish feature setup entry in Settings, with one gentle reminder after 24 hours if notifications are allowed. About Keesa provides a permanent review route.
-
-Existing appearance, Home layout, saving reservations, financial calculations and APK verification are retained. Firebase ruleset updated; an explicit storage migration preserves existing data.
-
-> Both partners should update before managing new shared beneficiary categories. Personal records and uploaded beneficiary photos remain private/device-local. Pilot acceptance is performed manually before wider distribution.
+> Customization must never compromise financial accuracy, security or accessibility. Financial calculations, shared-data boundaries, Room schema 12 and update verification remain intact. Icons and haptics stay device-local; notification vibration remains controlled by Android.
 
 </details>
 
@@ -130,12 +133,6 @@ Download the APK from the numbered pilot release and install it over your existi
 Starting with 2.7.0, Keesa can check for later pilots from **Settings → About Keesa → Check for updates**. The permanent channel manifest is published as the **pilot-manifest.json** asset on the **pilot-channel** release and points to the corresponding numbered APK.
 
 Pilot builds are prepared locally. Test a new pilot on your own phone before distributing it to other test devices.
-
---- | :--- |
-| [app/src/main](app/src/main) | Android app, Compose screens and resources |
-| [currency_font](currency_font) | Maldivian currency font assets |
-
-</details>
 
 ---
 
