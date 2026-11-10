@@ -91,23 +91,23 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.16.0 · Lagoon Compass** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.16.0-pilot) |
+| **Device pilot** | **2.16.1 · Steady Anchorage** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.16.1-pilot) |
 
 <details>
-<summary><strong>What changed in Lagoon Compass</strong></summary>
+<summary><strong>What changed in Steady Anchorage</strong></summary>
 
-**A familiar way home, in every space.** Settings → Personalization Studio → Navigation Studio adds eight coordinated designs and separate Personal, Together and All configurations. Your current navigation stays unchanged until you Apply.
+**Familiar navigation. Clearer reading.** Keesa returns to its original floating pill as the only navigation design. Your supported customization choices stay with you.
 
-| Choose a starting point | Make it yours | Find settings faster |
+| Keep your bearings | Make Original yours | Read comfortably |
 | :--- | :--- | :--- |
-| Keesa Original, Floating Island or Floating Dock | Mix main navigation, secondary surface and FAB | Search feature names and follow breadcrumb results |
-| Living Wave, Contour Steps or Ribbon Flow | Reorder destinations and choose main/More placement | Motion effects grouped into focused studios and individual pages |
-| Horizon Carousel or Dhoni Passage | Bundled symbols, icon inheritance or navigation-only override | Nested Appearance, Dashboard, Haptics, Accounts and data controls |
-| Preview without touching your ledger | Named presets and navigation-only JSON import/export | Back returns through the category hierarchy |
+| Familiar pill and circular active indicator | Separate Personal, Together and All preferences | Explicit tour text and illustration colors |
+| Every destination stays reachable | Reorder main/More destinations and choose bundled icons | Contrast protection for dialogs and elevated surfaces |
+| Previous alternatives return safely to Original | Adjust labels, size, shape, spacing and action controls | Improved legacy-theme and light-mode amount readability |
+| No decorative navigation loops | Preview, Apply and keep named presets with JSON transfer | Less repeated Settings and backdrop work |
 
-Adaptive overflow keeps destinations reachable on smaller screens. Global Motion Preferences and Android accessibility limits remain in control; decorative effects stop when inactive. Existing seven app-wide icon collections remain independent of navigation designs.
+Seven icon collections remain independent of color themes. Global Motion Preferences, accessible touch targets and Android restrictions continue to apply. Financial values, databases, shared sync, SMS and updater safeguards are unchanged.
 
-> Financial calculations, local databases, Firebase sync, SMS processing and APK verification are unchanged. Install over the existing app; device acceptance remains manual before wider pilot distribution.
+> Update over the existing installation. No test financial records are bundled. Manual device acceptance remains necessary before wider pilot distribution.
 
 </details>
 
