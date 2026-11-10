@@ -91,24 +91,22 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.13.0 · Island Encounters** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.13.0-pilot) |
+| **Device pilot** | **2.14.0 · Quiet Coordinates** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.14.0-pilot) |
 
 <details>
-<summary><strong>What changed in Island Encounters</strong></summary>
+<summary><strong>What changed in Quiet Coordinates</strong></summary>
 
-**Familiar faces, clear histories.** Beneficiaries now form a borderless visual gallery: three columns by default, optional four, consistent photos or initials, centered names and small category labels. Search instantly, keep the existing category filters, choose A–Z or Recently Used and optionally pin favourite contacts. Long-press for quick actions.
+**A dashboard for each space.** Settings → Personalization Studio → Dashboard Layout now keeps separate Personal, Together and All preferences. Your current layout and visual defaults remain until you edit them.
 
-| Your gallery | Your profile |
-| :--- | :--- |
-| Circle or rounded-square avatars | Animated 90%-height sheet or full-screen page |
-| Device-local favourites and display choices | Large photo, category, account/contact information and Edit/More |
-| Controls in Beneficiaries → Display and Studio → Appearance & Themes | Newest-first linked payment ledger with fixed Receive and Log payment actions |
+| Visibility | Presentation | Behaviour |
+| :--- | :--- | :--- |
+| Choose and order cards/sections; hide account tiles and individual details | Comfortable or Compact; per-card overrides and summaries | Start expanded, collapsed or remember the last card state |
+| Hide account balances while retaining privacy authentication | Control MVR/USD overview breakdowns, account counts and available/allocated figures | Start at top, a chosen section or a remembered position |
+| New Account wealth overview card, off by default | Recorded holdings, spendable and reserved money stay distinctly labelled | Restore one dashboard profile without changing the others |
 
-**Let the islands show.** Matching island wallpapers are included as native artwork. Their readability veil no longer hides the scene; choosing a new palette defaults to its wallpaper while retaining textured-solid and keep-background choices. Clear glass adds opt-in transparency with readable foreground text. Existing appearance stays unchanged until selected.
+Hidden accounts still count in balances, reservations and reports, and remain available in transaction forms. Compact reduces spacing rather than shrinking text or touch targets. Card edits use explicit Save/Cancel, and scroll checkpoints are saved when scrolling settles.
 
-**Tours and forms that fit.** Tour text adapts to current theme surfaces, including legacy palettes. Replays have clear Close tour actions. Add/Edit Beneficiary uses the corrected full-page sizing and reduced header padding to keep footer actions visible around the keyboard.
-
-> Financial calculations, shared-data boundaries, Room schema 12 and APK verification remain intact. No new Firebase rules or database migration. Manual device acceptance comes before wider pilot distribution.
+> Customization changes presentation only. Total account wealth is not spendable wealth or net worth. Financial arithmetic, Room schema 12, Firebase/SMS and verified in-place updates remain unchanged. Device acceptance uses your own records before wider pilot distribution.
 
 </details>
 
