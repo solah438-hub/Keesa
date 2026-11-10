@@ -91,25 +91,24 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.12.0 · Atoll Atelier** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.12.0-pilot) |
+| **Device pilot** | **2.13.0 · Island Encounters** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.13.0-pilot) |
 
 <details>
-<summary><strong>What changed in Atoll Atelier</strong></summary>
+<summary><strong>What changed in Island Encounters</strong></summary>
 
-**Your spaces, your style.** Settings → Keesa Personalization Studio brings appearance, dashboard layout, navigation, transaction presentation, privacy and interaction into one place. Your current look stays intact until you choose a change.
+**Familiar faces, clear histories.** Beneficiaries now form a borderless visual gallery: three columns by default, optional four, consistent photos or initials, centered names and small category labels. Search instantly, keep the existing category filters, choose A–Z or Recently Used and optionally pin favourite contacts. Long-press for quick actions.
 
-| Studio | Make it yours |
+| Your gallery | Your profile |
 | :--- | :--- |
-| **Appearance & Themes** | Ten Maldivian island palettes, each with an original illustrated wallpaper or matching textured solid. Keep custom images, framing, brightness, blur, card separation, accent and saved presets. |
-| **Dashboard Layout** | Show, hide and reorder Home cards; arrange Personal accounts for the balance pager and account carousel; choose the spendable display. |
-| **Navigation Studio** | Choose Keesa Original, Duotone, Solid, Soft Form, Prestige, Geometric or Dhivehi Heritage independently for Personal, Together and All. |
-| **Transaction Preferences** | Choose recent-list order; future presentation controls are marked Coming Soon. |
-| **Privacy & Interaction** | Authenticated amount masking and Haptic Studio: touch, navigation, PIN, menus, successful saves, errors and supported animation cues, with previews and hardware-aware strength. |
-| **Motion Preferences** | Coming Soon. Existing Keesa motion stays in place. |
+| Circle or rounded-square avatars | Animated 90%-height sheet or full-screen page |
+| Device-local favourites and display choices | Large photo, category, account/contact information and Edit/More |
+| Controls in Beneficiaries → Display and Studio → Appearance & Themes | Newest-first linked payment ledger with fixed Receive and Log payment actions |
 
-A skippable customization tour introduces the Studio and can be replayed there. Update notes now use readable release-history sections, and the installation confirmation explains **Continue** and **What's New**.
+**Let the islands show.** Matching island wallpapers are included as native artwork. Their readability veil no longer hides the scene; choosing a new palette defaults to its wallpaper while retaining textured-solid and keep-background choices. Clear glass adds opt-in transparency with readable foreground text. Existing appearance stays unchanged until selected.
 
-> Customization must never compromise financial accuracy, security or accessibility. Financial calculations, shared-data boundaries, Room schema 12 and update verification remain intact. Icons and haptics stay device-local; notification vibration remains controlled by Android.
+**Tours and forms that fit.** Tour text adapts to current theme surfaces, including legacy palettes. Replays have clear Close tour actions. Add/Edit Beneficiary uses the corrected full-page sizing and reduced header padding to keep footer actions visible around the keyboard.
+
+> Financial calculations, shared-data boundaries, Room schema 12 and APK verification remain intact. No new Firebase rules or database migration. Manual device acceptance comes before wider pilot distribution.
 
 </details>
 
