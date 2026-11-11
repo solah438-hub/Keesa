@@ -30,9 +30,9 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 - **Ledger housekeeping.** Archive entries to hide them from the active ledger while retaining their financial effect. Trash and refund actions are available for eligible transactions.
 
 <details>
-<summary><strong>Bank SMS automation and review</strong></summary>
+<summary><strong>Bank SMS, BML notifications and private review</strong></summary>
 
-With permission, Keesa parses supported bank alerts on the device. Choose automatic posting or review alerts yourself, individually or in bulk. New alerts are the default, with an optional scan from a date you select. You can choose a default account and whether bank-account matching takes priority. An outgoing transfer can debit its source while the destination remains pending, then be completed from the ledger.
+With permission, Keesa parses supported bank SMS and BML Banking / BML Mobile Funds Received and Favara Funds Sent notifications on the device. Notification access is optional and explained separately. Choose automatic posting or review alerts yourself, individually or in bulk. New alerts are the default, with an optional scan from a date you select. You can choose a default account and whether bank-account matching takes priority. An outgoing transfer can debit its source while the destination remains pending, then be completed from the ledger.
 
 </details>
 
@@ -91,21 +91,21 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.16.1 · Steady Anchorage** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.16.1-pilot) |
+| **Device pilot** | **2.17.0 · Reef Relay** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.17.0-pilot) |
 
 <details>
-<summary><strong>What changed in Steady Anchorage</strong></summary>
+<summary><strong>What changed in Reef Relay</strong></summary>
 
-**Familiar navigation. Clearer reading.** Keesa returns to its original floating pill as the only navigation design. Your supported customization choices stay with you.
+**Bank alerts, privately. The right ledger, deliberately.** BML notification support joins the existing SMS workflow, with reviewed ownership corrections between Personal and Together.
 
-| Keep your bearings | Make Original yours | Read comfortably |
+| Read bank alerts | Correct a ledger entry | Stay in control |
 | :--- | :--- | :--- |
-| Familiar pill and circular active indicator | Separate Personal, Together and All preferences | Explicit tour text and illustration colors |
-| Every destination stays reachable | Reorder main/More destinations and choose bundled icons | Contrast protection for dialogs and elevated surfaces |
-| Previous alternatives return safely to Original | Adjust labels, size, shape, spacing and action controls | Improved legacy-theme and light-mode amount readability |
-| No decorative navigation loops | Preview, Apply and keep named presets with JSON transfer | Less repeated Settings and backdrop work |
+| Optional BML Banking / BML Mobile notification access | Hold and swipe right to edit | Review first or use private automatic entry |
+| Supported Funds Received and Favara Funds Sent templates | Swipe left or use Details to review relocation | Separate MVR/USD default accounts |
+| Updated card-payment SMS with bank date and reference | Select existing destination accounts and confirm both balance effects | Online confirmation, immutable audit receipts and interrupted-move recovery |
+| New alerts only; no notification-history scan | Creator-only Together → Personal relocation | Raw alerts, notes, receipts and private routing stay off Together |
 
-Seven icon collections remain independent of color themes. Global Motion Preferences, accessible touch targets and Android restrictions continue to apply. Financial values, databases, shared sync, SMS and updater safeguards are unchanged.
+Protected audit records, linked commitments/refunds and split receipts keep their dedicated workflows. Informational sharing remains separate from relocating a real entry. Categories match existing destination names/types when unambiguous; reassign missing categories, beneficiary and salary links in the destination after moving. Both partners should update before testing relocation.
 
 > Update over the existing installation. No test financial records are bundled. Manual device acceptance remains necessary before wider pilot distribution.
 
