@@ -91,21 +91,22 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.17.0 · Reef Relay** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.17.0-pilot) |
+| **Device pilot** | **2.18.0 · Tidal Touch** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.18.0-pilot) |
 
 <details>
-<summary><strong>What changed in Reef Relay</strong></summary>
+<summary><strong>What changed in Tidal Touch</strong></summary>
 
-**Bank alerts, privately. The right ledger, deliberately.** BML notification support joins the existing SMS workflow, with reviewed ownership corrections between Personal and Together.
+**A clear action for every gesture.** Swipe directly, or hold for a quick-action menu. This update restores discoverable bulk tools while keeping Keesa's familiar cards, colours and motion.
 
-| Read bank alerts | Correct a ledger entry | Stay in control |
+| Gesture | What happens | Where it works |
 | :--- | :--- | :--- |
-| Optional BML Banking / BML Mobile notification access | Hold and swipe right to edit | Review first or use private automatic entry |
-| Supported Funds Received and Favara Funds Sent templates | Swipe left or use Details to review relocation | Separate MVR/USD default accounts |
-| Updated card-payment SMS with bank date and reference | Select existing destination accounts and confirm both balance effects | Online confirmation, immutable audit receipts and interrupted-move recovery |
-| New alerts only; no notification-history scan | Creator-only Together → Personal relocation | Raw alerts, notes, receipts and private routing stay off Together |
+| **Swipe right** | Open Edit for an eligible transaction; no hold required | Personal, Together and All |
+| **Swipe left** | Review moving an eligible record to the other space | When a Together workspace is available |
+| **Hold still** | Open Details, Edit, Move, Select multiple and applicable sharing options | All ledger views |
+| **Select** | Use checkboxes, select all/inverse, category changes and existing bulk actions | Scoped Personal/Together ledger tools |
+| **Scroll vertically** | Continue scrolling without opening row actions | All ledger lists |
 
-Protected audit records, linked commitments/refunds and split receipts keep their dedicated workflows. Informational sharing remains separate from relocating a real entry. Categories match existing destination names/types when unambiguous; reassign missing categories, beneficiary and salary links in the destination after moving. Both partners should update before testing relocation.
+Bulk selection takes priority over row gestures. In All, the quick menu routes selection to the correct Personal or Together ledger. Swipes open forms; moving a record still requires account review and explicit confirmation. Protected audits, split receipts and linked records retain their safeguards. BML imports and all existing finance features remain available.
 
 > Update over the existing installation. No test financial records are bundled. Manual device acceptance remains necessary before wider pilot distribution.
 
