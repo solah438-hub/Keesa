@@ -21,6 +21,8 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
+> **Living Atolls · 2.21.0** — Opt-in Living Wallpapers brings quiet movement to ten illustrated Maldivian scenes. Preview with neutral dashboard placeholders, choose per-space motion, and apply only when ready. Existing appearances stay unchanged.
+
 ### Accounts and everyday ledger
 
 - **Bank accounts and wallets.** Open an account’s balance from Home, choose MVR-only or combined MVR + USD for the main spendable amount, and set a custom conversion rate. Historical transactions retain their recorded rate.
@@ -91,22 +93,22 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.20.0 · Paper Tides** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.20.0-pilot) |
+| **Device pilot** | **2.21.0 · Living Atolls** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.21.0-pilot) |
 
 <details>
-<summary><strong>What changed in Paper Tides</strong></summary>
+<summary><strong>What changed in Living Atolls</strong></summary>
 
-**A thoughtful image for each recorded moment.** Open Transaction Details, generate a themed summary, preview it, then save or share it through Android.
+**A little life behind the ledger.** Living Wallpapers animates Keesa's original Maldivian illustrations while keeping financial information in the foreground.
 
 | Area | What changes |
 | :--- | :--- |
-| **Transaction images** | Choose amounts, date/time, accounts, category, beneficiary image/details, memo, splits and recorded exchange rate. Current colors, fonts, icons and the Rufiyaa symbol are retained. |
-| **Field controls** | Personalization Studio → Transaction Preferences → Transaction images contains three nested settings areas. Account references, beneficiary numbers and memo are off by default; amount masking remains active. |
-| **One-time drafts** | Resume/discard is offered once. Unused offers expire at the next transaction entry; newly edited work remains recoverable. |
-| **Smooth filtering** | Ledger and Budget/Goal Vault filters transition through the existing motion preferences, with one actionable list. |
-| **Bulk tools** | The top Select button is removed; hold a Ledger row and choose Select multiple. |
+| **Ten living scenes** | Quiet waves, foliage, boats and illustration highlights. Choose solid, static or animated presentation; uploaded photos remain static. |
+| **Preview before Apply** | Browse static thumbnails and preview behind existing dashboard components with neutral, masked amounts. Your active appearance stays unchanged until Apply. |
+| **Your own pace** | Subtle, Balanced and Expressive presets, plus speed, intensity, occasional accents and supported scene controls. |
+| **Separate spaces** | Personal, Together and All can retain separate defaults and scene overrides. Apply to all spaces and a matching palette are explicit choices. |
+| **System-first motion** | Motion Preferences and Android accessibility remain authoritative. Motion pauses when hidden and can pause for Battery Saver, low memory or severe thermal conditions. |
 
-Images are generated locally from already-visible records. No financial database changes or automatic Firebase uploads are introduced. The output is a Keesa transaction summary, with a preview before export.
+Existing appearances are preserved. Everything is rendered locally using native vector artwork; no financial database changes, new permissions, downloads or Firebase activity are introduced.
 
 > Update over the existing installation. No test financial records are bundled. Manual device acceptance remains necessary before wider pilot distribution.
 
