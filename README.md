@@ -91,21 +91,20 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.19.0 · Coral Assembly** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.19.0-pilot) |
+| **Device pilot** | **2.19.1 · Clear Intent** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.19.1-pilot) |
 
 <details>
-<summary><strong>What changed in Coral Assembly</strong></summary>
+<summary><strong>What changed in Clear Intent</strong></summary>
 
-**Assemble a transaction with fewer large fields.** Compact recipient and account selections bring everyday entry closer to Keesa's familiar cards, while preserving all financial logic.
+**New entries start with your choices.** Income, Expense and Transfer actions keep the type you opened, without silently filling a beneficiary or memo from older work.
 
-| Selection | New experience |
-| :--- | :--- |
-| **Beneficiary** | Compact avatar/name/type strip replaces the duplicate payee field. Tap to change, use the pen to edit the transaction title, or unlink. Existing custom titles are retained. |
-| **Account** | Compact selector opens a content-sized sheet with recorded balance, currency, account type and selection highlight. Search appears for larger lists. |
-| **Category** | Searchable three-column visual sheet puts recent choices first, supports custom categories and keeps No category optional. |
-| **Split receipt** | Expand inline; reuse the visual category picker with readable amount/note rows. |
+- **Explicit draft recovery.** Resume a saved draft when you want it; a fresh form stays fresh. Untouched new forms do not overwrite older drafts.
+- **Deliberate payee selection.** Choosing a beneficiary keeps your transaction type and leaves the memo for your own words. The compact recipient, account and visual category selectors remain available.
+- **Smooth type changes.** Relevant sections expand, collapse and fade using your motion preferences, retaining entered amounts, notes and receipts.
+- **A quieter Ledger.** The gesture instruction line is removed; Select, swipes and hold actions remain.
+- **Refreshed release history.** Names and Lore & Telemetry for 1.0.0 through 1.12.0 now follow Keesa's current style; historical version numbers and features stay intact.
 
-The same form serves Personal and Together with their own accounts and categories. Sheets respect safe areas, keyboard resizing, icon collections and motion preferences. Account amounts honor privacy masking. Prominent amount entry, receipt attachments, drafts and save validation remain familiar.
+Personal/Together form state stays scoped. Existing saved notes, beneficiary relationships, balances, financial calculations and data formats are preserved.
 
 > Update over the existing installation. No test financial records are bundled. Manual device acceptance remains necessary before wider pilot distribution.
 
