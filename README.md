@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Living Atolls · 2.21.0** — Opt-in Living Wallpapers brings quiet movement to ten illustrated Maldivian scenes. Preview with neutral dashboard placeholders, choose per-space motion, and apply only when ready. Existing appearances stay unchanged.
+> **Chromatic Tides · 2.22.0** — Fifteen original island and heritage wallpapers, five vibrant Maldivian palettes, and clear static/live playback. Munnaaru, Loamaafaanu, Utheemu, Kasabu and Thun’du Kunaa bring architecture, craft and history into Personalization Studio.
 
 ### Accounts and everyday ledger
 
@@ -93,22 +93,22 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.21.0 · Living Atolls** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.21.0-pilot) |
+| **Device pilot** | **2.22.0 · Chromatic Tides** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.22.0-pilot) |
 
 <details>
-<summary><strong>What changed in Living Atolls</strong></summary>
+<summary><strong>What changed in Chromatic Tides</strong></summary>
 
-**A little life behind the ledger.** Living Wallpapers animates Keesa's original Maldivian illustrations while keeping financial information in the foreground.
+**Copper, coral stone and woven light.** All fifteen wallpapers are new vector compositions, built for static and living presentation. The five new vibrant themes draw on Maldivian buildings, artifacts and craft rather than interchangeable tropical imagery.
 
 | Area | What changes |
 | :--- | :--- |
-| **Ten living scenes** | Quiet waves, foliage, boats and illustration highlights. Choose solid, static or animated presentation; uploaded photos remain static. |
-| **Preview before Apply** | Browse static thumbnails and preview behind existing dashboard components with neutral, masked amounts. Your active appearance stays unchanged until Apply. |
-| **Your own pace** | Subtle, Balanced and Expressive presets, plus speed, intensity, occasional accents and supported scene controls. |
-| **Separate spaces** | Personal, Together and All can retain separate defaults and scene overrides. Apply to all spaces and a matching palette are explicit choices. |
-| **System-first motion** | Motion Preferences and Android accessibility remain authoritative. Motion pauses when hidden and can pause for Battery Saver, low memory or severe thermal conditions. |
+| **Five vibrant heritage palettes** | Munnaaru, Loamaafaanu, Utheemu, Kasabu and Thun’du Kunaa, alongside the ten established island palettes. |
+| **Fifteen original scenes** | Coral-stone architecture, ring-linked copper plates, timber courtyards, lacquerwork, woven textiles, dhoni and cowrie forms. Research photographs are not bundled. |
+| **Static or living** | Explicit static/animated choices in the theme picker, live status in Studio, a dashboard preview or artwork-only view, and Apply/discard protection. |
+| **Purposeful motion** | Water, palms, clouds and vessels move; copper, lacquer and thread receive clipped light sweeps. Architecture stays grounded. Motion restrictions explain why playback is paused. |
+| **Readability first** | Stronger wallpaper visibility remains bounded by contrast safeguards across light/dark palettes and card presentations. No forced transparency or financial number animation. |
 
-Existing appearances are preserved. Everything is rendered locally using native vector artwork; no financial database changes, new permissions, downloads or Firebase activity are introduced.
+The old illustrations are replaced. Existing palette values, selected modes, per-space settings and custom photos are preserved. Previously saved static choices remain static until you explicitly choose **Matching animated wallpaper** or **Living illustration**, then Apply. Everything renders locally; no new permissions, financial schema changes or Firebase activity are introduced.
 
 > Update over the existing installation. No test financial records are bundled. Manual device acceptance remains necessary before wider pilot distribution.
 
