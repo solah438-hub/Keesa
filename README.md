@@ -91,22 +91,21 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.18.0 · Tidal Touch** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.18.0-pilot) |
+| **Device pilot** | **2.19.0 · Coral Assembly** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.19.0-pilot) |
 
 <details>
-<summary><strong>What changed in Tidal Touch</strong></summary>
+<summary><strong>What changed in Coral Assembly</strong></summary>
 
-**A clear action for every gesture.** Swipe directly, or hold for a quick-action menu. This update restores discoverable bulk tools while keeping Keesa's familiar cards, colours and motion.
+**Assemble a transaction with fewer large fields.** Compact recipient and account selections bring everyday entry closer to Keesa's familiar cards, while preserving all financial logic.
 
-| Gesture | What happens | Where it works |
-| :--- | :--- | :--- |
-| **Swipe right** | Open Edit for an eligible transaction; no hold required | Personal, Together and All |
-| **Swipe left** | Review moving an eligible record to the other space | When a Together workspace is available |
-| **Hold still** | Open Details, Edit, Move, Select multiple and applicable sharing options | All ledger views |
-| **Select** | Use checkboxes, select all/inverse, category changes and existing bulk actions | Scoped Personal/Together ledger tools |
-| **Scroll vertically** | Continue scrolling without opening row actions | All ledger lists |
+| Selection | New experience |
+| :--- | :--- |
+| **Beneficiary** | Compact avatar/name/type strip replaces the duplicate payee field. Tap to change, use the pen to edit the transaction title, or unlink. Existing custom titles are retained. |
+| **Account** | Compact selector opens a content-sized sheet with recorded balance, currency, account type and selection highlight. Search appears for larger lists. |
+| **Category** | Searchable three-column visual sheet puts recent choices first, supports custom categories and keeps No category optional. |
+| **Split receipt** | Expand inline; reuse the visual category picker with readable amount/note rows. |
 
-Bulk selection takes priority over row gestures. In All, the quick menu routes selection to the correct Personal or Together ledger. Swipes open forms; moving a record still requires account review and explicit confirmation. Protected audits, split receipts and linked records retain their safeguards. BML imports and all existing finance features remain available.
+The same form serves Personal and Together with their own accounts and categories. Sheets respect safe areas, keyboard resizing, icon collections and motion preferences. Account amounts honor privacy masking. Prominent amount entry, receipt attachments, drafts and save validation remain familiar.
 
 > Update over the existing installation. No test financial records are bundled. Manual device acceptance remains necessary before wider pilot distribution.
 
@@ -136,4 +135,5 @@ Pilot builds are prepared locally. Test a new pilot on your own phone before dis
 ---
 
 <p align="center"><sub>Created by Ahmed Solah · Built for the Maldives</sub></p>
+
 
