@@ -91,20 +91,22 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.19.1 · Clear Intent** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.19.1-pilot) |
+| **Device pilot** | **2.20.0 · Paper Tides** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.20.0-pilot) |
 
 <details>
-<summary><strong>What changed in Clear Intent</strong></summary>
+<summary><strong>What changed in Paper Tides</strong></summary>
 
-**New entries start with your choices.** Income, Expense and Transfer actions keep the type you opened, without silently filling a beneficiary or memo from older work.
+**A thoughtful image for each recorded moment.** Open Transaction Details, generate a themed summary, preview it, then save or share it through Android.
 
-- **Explicit draft recovery.** Resume a saved draft when you want it; a fresh form stays fresh. Untouched new forms do not overwrite older drafts.
-- **Deliberate payee selection.** Choosing a beneficiary keeps your transaction type and leaves the memo for your own words. The compact recipient, account and visual category selectors remain available.
-- **Smooth type changes.** Relevant sections expand, collapse and fade using your motion preferences, retaining entered amounts, notes and receipts.
-- **A quieter Ledger.** The gesture instruction line is removed; Select, swipes and hold actions remain.
-- **Refreshed release history.** Names and Lore & Telemetry for 1.0.0 through 1.12.0 now follow Keesa's current style; historical version numbers and features stay intact.
+| Area | What changes |
+| :--- | :--- |
+| **Transaction images** | Choose amounts, date/time, accounts, category, beneficiary image/details, memo, splits and recorded exchange rate. Current colors, fonts, icons and the Rufiyaa symbol are retained. |
+| **Field controls** | Personalization Studio → Transaction Preferences → Transaction images contains three nested settings areas. Account references, beneficiary numbers and memo are off by default; amount masking remains active. |
+| **One-time drafts** | Resume/discard is offered once. Unused offers expire at the next transaction entry; newly edited work remains recoverable. |
+| **Smooth filtering** | Ledger and Budget/Goal Vault filters transition through the existing motion preferences, with one actionable list. |
+| **Bulk tools** | The top Select button is removed; hold a Ledger row and choose Select multiple. |
 
-Personal/Together form state stays scoped. Existing saved notes, beneficiary relationships, balances, financial calculations and data formats are preserved.
+Images are generated locally from already-visible records. No financial database changes or automatic Firebase uploads are introduced. The output is a Keesa transaction summary, with a preview before export.
 
 > Update over the existing installation. No test financial records are bundled. Manual device acceptance remains necessary before wider pilot distribution.
 
