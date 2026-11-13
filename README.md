@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Chromatic Tides · 2.22.0** — Fifteen original island and heritage wallpapers, five vibrant Maldivian palettes, and clear static/live playback. Munnaaru, Loamaafaanu, Utheemu, Kasabu and Thun’du Kunaa bring architecture, craft and history into Personalization Studio.
+> **Island Accord · 2.23.0** — Fifteen fixed tritone palettes, a preview-first Appearance Studio, optional heritage-inspired card decorations, and clearer release summaries. Existing records remain private and intact.
 
 ### Accounts and everyday ledger
 
@@ -69,7 +69,7 @@ Keep your private finances and a two-person household workspace in one app. Swit
 
 - **App lock.** Set a local PIN, configure inactivity locking, and enable fingerprint unlock on supported devices. The Danger Zone offers a separate PIN-confirmed option to clear this device’s Keesa data.
 - **Backup and portability.** Export or import ledger data using CSV and JSON, export a readable financial statement, or use a passphrase-encrypted vault to back up and restore the financial database. Receipt images and app preferences are stored separately from the vault backup.
-- **Make it yours.** Open Personalization Studio for light/dark/system appearance, island palettes and wallpapers, custom images, saved looks, per-space icon collections, Home card ordering, Haptic Studio, device-wide Motion Preferences and per-space Navigation Studio. Search nested Settings to find individual controls. Existing looks are retained until you explicitly change them.
+- **Make it yours.** Open Personalization Studio for light/dark/system appearance, island palettes and wallpapers, custom images, saved looks, per-space icon collections, Home card ordering, Haptic Studio, device-wide Motion Preferences and per-space Navigation Studio. Search nested Settings to find individual controls. Existing selections are retained; themes now use their assigned three-color palettes, while decorations stay off until enabled.
 
 </details>
 
@@ -93,22 +93,23 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.22.0 · Chromatic Tides** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.22.0-pilot) |
+| **Device pilot** | **2.23.0 · Island Accord** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.23.0-pilot) |
 
 <details>
-<summary><strong>What changed in Chromatic Tides</strong></summary>
+<summary><strong>What changed in Island Accord</strong></summary>
 
-**Copper, coral stone and woven light.** All fifteen wallpapers are new vector compositions, built for static and living presentation. The five new vibrant themes draw on Maldivian buildings, artifacts and craft rather than interchangeable tropical imagery.
+**Three voices, one coherent look.** Every island and heritage palette has an authored primary, secondary and tertiary. Explore your look in a separate preview, then Apply when ready.
 
 | Area | What changes |
 | :--- | :--- |
-| **Five vibrant heritage palettes** | Munnaaru, Loamaafaanu, Utheemu, Kasabu and Thun’du Kunaa, alongside the ten established island palettes. |
-| **Fifteen original scenes** | Coral-stone architecture, ring-linked copper plates, timber courtyards, lacquerwork, woven textiles, dhoni and cowrie forms. Research photographs are not bundled. |
-| **Static or living** | Explicit static/animated choices in the theme picker, live status in Studio, a dashboard preview or artwork-only view, and Apply/discard protection. |
-| **Purposeful motion** | Water, palms, clouds and vessels move; copper, lacquer and thread receive clipped light sweeps. Architecture stays grounded. Motion restrictions explain why playback is paused. |
-| **Readability first** | Stronger wallpaper visibility remains bounded by contrast safeguards across light/dark palettes and card presentations. No forced transparency or financial number animation. |
+| **Fixed tritone themes** | Fifteen coordinated three-color palettes with complete light/dark roles. Theme colors cannot be individually disabled or overridden. |
+| **Preview-first Appearance Studio** | Separate Personal, Together and All drafts, nested controls and explicit Apply/Discard. Saved looks load into preview first. |
+| **Optional card artwork** | Original island, architecture and craft edge motifs on eligible overview cards. Decorations and their independent animation start **off**. |
+| **Background independence** | Keep your own photo, textured color, static illustration or living wallpaper. Choosing artwork does not force its palette. |
+| **Clearer release history** | Short descriptions for every version, followed by an optional second expansion into full notes and lore. |
+| **Reachable page actions** | Transparent finance headers and page-local bottom action docks keep common actions within reach above navigation. |
 
-The old illustrations are replaced. Existing palette values, selected modes, per-space settings and custom photos are preserved. Previously saved static choices remain static until you explicitly choose **Matching animated wallpaper** or **Living illustration**, then Apply. Everything renders locally; no new permissions, financial schema changes or Firebase activity are introduced.
+Customization stays device-local. Protected financial forms and transaction rows remain clean; accessibility and system motion limits remain authoritative. No new financial schema, Firebase activity or installation permissions are introduced.
 
 > Update over the existing installation. No test financial records are bundled. Manual device acceptance remains necessary before wider pilot distribution.
 
