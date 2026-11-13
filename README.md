@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Clear Anchorage · 2.23.1** — Urgent footer fix: page actions and Appearance Studio Apply/Discard stay above floating navigation. Island Accord’s fixed tritone themes and optional card decorations remain available.
+> **Dhivehi Canvas · 2.24.0** — Maldivian craft and heritage themes, richer living illustrations, optional card and entry-panel artwork, private profile photos and clearer transaction images. Focused beneficiary-search, Settings and form-footer improvements keep the familiar Keesa flow.
 
 ### Accounts and everyday ledger
 
@@ -69,7 +69,8 @@ Keep your private finances and a two-person household workspace in one app. Swit
 
 - **App lock.** Set a local PIN, configure inactivity locking, and enable fingerprint unlock on supported devices. The Danger Zone offers a separate PIN-confirmed option to clear this device’s Keesa data.
 - **Backup and portability.** Export or import ledger data using CSV and JSON, export a readable financial statement, or use a passphrase-encrypted vault to back up and restore the financial database. Receipt images and app preferences are stored separately from the vault backup.
-- **Make it yours.** Open Personalization Studio for light/dark/system appearance, island palettes and wallpapers, custom images, saved looks, per-space icon collections, Home card ordering, Haptic Studio, device-wide Motion Preferences and per-space Navigation Studio. Search nested Settings to find individual controls. Existing selections are retained; themes now use their assigned three-color palettes, while decorations stay off until enabled.
+- **Make it yours.** Open Personalization Studio for light/dark/system appearance, Maldivian craft and heritage tritone palettes, static or living wallpapers, custom images, saved looks, per-space icon collections, Home card ordering, Haptic Studio, device-wide Motion Preferences and per-space Navigation Studio. Search nested Settings to find individual controls. Legacy and first-ten palettes receive Dhoani once in 2.24.0; the latest five heritage selections and unrelated preferences stay intact. Themes use three fixed colors. Optional card artwork, entry-panel decorations and their independent motion controls stay under Preview and Apply.
+- **Private identity and shareable records.** Set a device-local profile photo, then choose whether transaction images include it or your name. Review sender/receiver details and optional fields before saving or sharing a plain, craft-decorated or illustrated static image. Portraits are not uploaded to Together.
 
 </details>
 
@@ -93,7 +94,7 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.23.1 · Clear Anchorage** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.23.1-pilot) |
+| **Device pilot** | **2.24.0 · Dhivehi Canvas** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.24.0-pilot) |
 
 <details>
 <summary><strong>What changed in Island Accord</strong></summary>
@@ -139,5 +140,4 @@ Pilot builds are prepared locally. Test a new pilot on your own phone before dis
 ---
 
 <p align="center"><sub>Created by Ahmed Solah · Built for the Maldives</sub></p>
-
 
