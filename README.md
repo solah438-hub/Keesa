@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Island Accord · 2.23.0** — Fifteen fixed tritone palettes, a preview-first Appearance Studio, optional heritage-inspired card decorations, and clearer release summaries. Existing records remain private and intact.
+> **Clear Anchorage · 2.23.1** — Urgent footer fix: page actions and Appearance Studio Apply/Discard stay above floating navigation. Island Accord’s fixed tritone themes and optional card decorations remain available.
 
 ### Accounts and everyday ledger
 
@@ -93,7 +93,7 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.23.0 · Island Accord** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.23.0-pilot) |
+| **Device pilot** | **2.23.1 · Clear Anchorage** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.23.1-pilot) |
 
 <details>
 <summary><strong>What changed in Island Accord</strong></summary>
