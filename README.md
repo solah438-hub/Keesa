@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Dhivehi Canvas · 2.24.0** — Maldivian craft and heritage themes, richer living illustrations, optional card and entry-panel artwork, private profile photos and clearer transaction images. Focused beneficiary-search, Settings and form-footer improvements keep the familiar Keesa flow.
+> **Clear Currents · 2.24.1** — A square theme gallery with expanded wallpaper/artwork previews, matching-theme application, simpler appearance controls and visible resets. Distinct cultural motifs, a side-by-side transaction-slip header and lighter sheet opening refine Dhivehi Canvas.
 
 ### Accounts and everyday ledger
 
@@ -94,7 +94,7 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.24.0 · Dhivehi Canvas** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.24.0-pilot) |
+| **Device pilot** | **2.24.1 · Clear Currents** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.24.1-pilot) |
 
 <details>
 <summary><strong>What changed in Island Accord</strong></summary>
