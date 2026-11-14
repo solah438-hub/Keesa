@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Clear Currents · 2.24.1** — A square theme gallery with expanded wallpaper/artwork previews, matching-theme application, simpler appearance controls and visible resets. Distinct cultural motifs, a side-by-side transaction-slip header and lighter sheet opening refine Dhivehi Canvas.
+> **Atoll Compass · 2.25.0** — A rebuilt Spending Compass, guided appearance setup, optional private camera/gallery portraits, focused Together access and searchable help.
 
 ### Accounts and everyday ledger
 
@@ -46,7 +46,7 @@ With permission, Keesa parses supported bank SMS and BML Banking / BML Mobile Fu
 | **Goal Vaults** | Account-backed reservations with contribution/withdrawal history, a dashboard, categories, priorities, target dates, images, optional schedules and lifecycle controls. Personal or shared ownership keeps spendable money separate. Allocate salary toward goals, envelopes, or other accounts. |
 | **Subscriptions and commitments** | View upcoming payments in a calendar or list, check daily agendas and payment status, and log subscription renewals when you pay. |
 | **Loans and financing** | Track facilities, due dates, linked debit accounts, and repayments. Use conventional APR or Murabaha calculations when setting up a facility and maintain the outstanding balance manually. |
-| **Spending intelligence** | Explore MVR, USD, and combined trends. See which categories drove changes, how recurring payments add up, and how quickly envelopes are being used. Tap through to the supporting transactions. |
+| **Spending Compass** | Overview, Analytics, Budgets and Insights; selected dates, MVR/USD/combined spending, ranked categories and daily/weekly/monthly trends. Monthly category limits keep their MVR basis. Open supporting transactions; Personal and Together analytics stay separate. |
 | **Optional notifications** | Get on-device alerts for budget thresholds, upcoming subscriptions, unusual spending, and goal milestones. Unusual-spending alerts use your local history when enough is available. |
 
 ### Pilot updates
@@ -59,7 +59,7 @@ The first updater-enabled build needs to be installed manually over the existing
 
 Keep your private finances and a two-person household workspace in one app. Switch between **Personal**, **Together**, and **All**. The combined view labels private and shared items and lets you filter by space.
 
-- **Set up a workspace.** Sign up with email, verify your address, and create an expiring invite code for your partner. They enter the code and you confirm the request. Email verification can be resent, and password reset is available.
+- **Set up a workspace.** Sign in with an administrator-provided account. Use a password-reset link to choose your password and verify your email if requested. Create a workspace and generate an expiring invite code, or join your partner using their code. The inviting partner confirms the request. Public account sign-up is not available in Keesa.
 - **Manage household finances.** Use shared accounts, transactions, beneficiaries, budgets, envelopes, Goal Vaults, subscriptions, a commitments calendar, loans, and spending reports. Either partner can add shared accounts after setup. Partner updates arrive while the app is in the foreground.
 - **Share deliberately.** Publish a balance-neutral reference from a private transaction while keeping the original in your Personal ledger. A Personal-to-Together transfer instead moves money into a shared account and shows your partner the contributor, received amount, currency, and date. Your personal account details and private notes stay private. SMS transactions start in Personal.
 - **Return to Personal.** Both partners must approve permanent workspace deletion when two people are connected. Once deletion is confirmed, Keesa returns to Personal and keeps your private records and email sign-in.
@@ -70,6 +70,7 @@ Keep your private finances and a two-person household workspace in one app. Swit
 - **App lock.** Set a local PIN, configure inactivity locking, and enable fingerprint unlock on supported devices. The Danger Zone offers a separate PIN-confirmed option to clear this device’s Keesa data.
 - **Backup and portability.** Export or import ledger data using CSV and JSON, export a readable financial statement, or use a passphrase-encrypted vault to back up and restore the financial database. Receipt images and app preferences are stored separately from the vault backup.
 - **Make it yours.** Open Personalization Studio for light/dark/system appearance, Maldivian craft and heritage tritone palettes, static or living wallpapers, custom images, saved looks, per-space icon collections, Home card ordering, Haptic Studio, device-wide Motion Preferences and per-space Navigation Studio. Search nested Settings to find individual controls. Legacy and first-ten palettes receive Dhoani once in 2.24.0; the latest five heritage selections and unrelated preferences stay intact. Themes use three fixed colors. Optional card artwork, entry-panel decorations and their independent motion controls stay under Preview and Apply.
+- **Guided setup and help.** Onboarding offers optional camera/gallery portraits and theme, matching wallpaper, motion and card-design previews before Apply. Help & FAQ in Settings explains complex financial and sharing flows. The optional expandable Spending Compass Home card starts off until enabled.
 - **Private identity and shareable records.** Set a device-local profile photo, then choose whether transaction images include it or your name. Review sender/receiver details and optional fields before saving or sharing a plain, craft-decorated or illustrated static image. Portraits are not uploaded to Together.
 
 </details>
@@ -94,25 +95,26 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.24.1 · Clear Currents** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.24.1-pilot) |
+| **Device pilot** | **2.25.0 · Atoll Compass** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.25.0-pilot) |
 
 <details>
-<summary><strong>What changed in Island Accord</strong></summary>
+<summary><strong>What changed in Atoll Compass</strong></summary>
 
-**Three voices, one coherent look.** Every island and heritage palette has an authored primary, secondary and tertiary. Explore your look in a separate preview, then Apply when ready.
+**Clearer bearings for everyday money.** Spending Compass brings a useful overview and focused detail together, while setup and Together access follow Keesa’s current visual language.
 
 | Area | What changes |
 | :--- | :--- |
-| **Fixed tritone themes** | Fifteen coordinated three-color palettes with complete light/dark roles. Theme colors cannot be individually disabled or overridden. |
-| **Preview-first Appearance Studio** | Separate Personal, Together and All drafts, nested controls and explicit Apply/Discard. Saved looks load into preview first. |
-| **Optional card artwork** | Original island, architecture and craft edge motifs on eligible overview cards. Decorations and their independent animation start **off**. |
-| **Background independence** | Keep your own photo, textured color, static illustration or living wallpaper. Choosing artwork does not force its palette. |
-| **Clearer release history** | Short descriptions for every version, followed by an optional second expansion into full notes and lore. |
-| **Reachable page actions** | Transparent finance headers and page-local bottom action docks keep common actions within reach above navigation. |
+| **Spending Compass** | Overview, Analytics, Budgets and Insights; ranked category bars, optional interactive donut and native time-series views. |
+| **Honest comparisons** | Visible dates/currencies, equal-day comparisons, explicit legacy-rate fallback and transaction evidence. Monthly budgets remain monthly MVR limits. |
+| **Separate scopes** | A compact Personal/Together selector in All. The optional Home card uses the same projection and keeps scope totals separate. |
+| **Guided onboarding** | Optional private camera/gallery portrait, theme and matching wallpaper, static/live choice and card previews. Apply explicitly or skip. |
+| **Together access** | Full-page sign-in, reset, verification, create/join and invitation stages. Existing sessions and invitation operations remain compatible; accounts come from the administrator. |
+| **Reachable Settings** | Full-page account editors, focused Together tools and categorized searchable FAQ answers. |
+| **Private sharing choices** | Transaction-image name/photo stay opt-in, including private own-account transfer headers. Profile-photo callbacks survive app relocking. |
 
-Customization stays device-local. Protected financial forms and transaction rows remain clean; accessibility and system motion limits remain authoritative. No new financial schema, Firebase activity or installation permissions are introduced.
+New optional effects and Home cards remain off until selected. Customization is device-local. The financial schema, shared-data protocol and verified updater remain compatible.
 
-> Update over the existing installation. No test financial records are bundled. Manual device acceptance remains necessary before wider pilot distribution.
+> Install over the existing app. No financial test records are bundled. Manual device and financial acceptance remain necessary before wider pilot distribution.
 
 </details>
 
