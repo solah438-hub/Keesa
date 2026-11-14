@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Atoll Compass · 2.25.0** — A rebuilt Spending Compass, guided appearance setup, optional private camera/gallery portraits, focused Together access and searchable help.
+> **Kindred Ties · 2.26.0** — Interest-free Friends & Family lending, a Companies & Services catalogue, live beneficiary suggestions, clearer automatic-import receipts and profile-aware transaction images.
 
 ### Accounts and everyday ledger
 
@@ -75,6 +75,19 @@ Keep your private finances and a two-person household workspace in one app. Swit
 
 </details>
 
+<details>
+<summary><strong>Friends, family, companies & everyday payments</strong></summary>
+
+- **Interest-free lending.** Enable the optional Friends & Family Home card to record new loans, follow what is owed to you and log partial repayments. Personal and Together journals keep their own accounts and native currencies. Principal moves cash without inflating income or spending; reviewed links reuse an existing bank-imported payment instead of recording it twice.
+- **Companies & Services.** Keep regular providers separate from personal contacts. Browse 184 editable, add-as-needed templates across Maldivian services, digital subscriptions and Hosting & Developer Services. Logos are bundled locally; adding a provider creates no payment or subscription.
+- **Faster transaction assembly.** Search beneficiaries as you type a Title / Payee and select the intended recipient. Cautious auto-tagging leaves competing matches for review.
+- **Private import receipts.** Optional Android notifications confirm automatically saved bank alerts. Generic summaries are the default; a tap opens the specific private record after unlock. Payment details are a separate opt-in.
+- **Profile-aware transaction images.** Choose your profile or account/currency for the outgoing header, retain the actual sender/receiver direction and review privacy fields before sharing. Existing explicit identity exclusions remain respected.
+
+Both Together partners should update before using shared lending. Shared money movements require an online confirmation; the journal offers recovery or cancellation when a result is interrupted.
+
+</details>
+
 ## Development tracker
 
 The [Keesa development tracker](https://keesa.ct.ws/) is the public home for project updates, releases, and community feedback.
@@ -95,24 +108,24 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.25.0 · Atoll Compass** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.25.0-pilot) |
+| **Device pilot** | **2.26.0 · Kindred Ties** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.26.0-pilot) |
 
 <details>
-<summary><strong>What changed in Atoll Compass</strong></summary>
+<summary><strong>What changed in Kindred Ties</strong></summary>
 
-**Clearer bearings for everyday money.** Spending Compass brings a useful overview and focused detail together, while setup and Together access follow Keesa’s current visual language.
+**A clearer record of everyday trust.** Record interest-free money lent to friends and family, keep regular providers organised, and review bank imports with more confidence.
 
 | Area | What changes |
 | :--- | :--- |
-| **Spending Compass** | Overview, Analytics, Budgets and Insights; ranked category bars, optional interactive donut and native time-series views. |
-| **Honest comparisons** | Visible dates/currencies, equal-day comparisons, explicit legacy-rate fallback and transaction evidence. Monthly budgets remain monthly MVR limits. |
-| **Separate scopes** | A compact Personal/Together selector in All. The optional Home card uses the same projection and keeps scope totals separate. |
-| **Guided onboarding** | Optional private camera/gallery portrait, theme and matching wallpaper, static/live choice and card previews. Apply explicitly or skip. |
-| **Together access** | Full-page sign-in, reset, verification, create/join and invitation stages. Existing sessions and invitation operations remain compatible; accounts come from the administrator. |
-| **Reachable Settings** | Full-page account editors, focused Together tools and categorized searchable FAQ answers. |
-| **Private sharing choices** | Transaction-image name/photo stay opt-in, including private own-account transfer headers. Profile-photo callbacks survive app relocking. |
+| **Friends & Family** | Optional expandable Home card and a dedicated Personal/Together lending journal. Track new loans, partial repayments and native-currency amounts owed. |
+| **Honest principal** | Account cash changes once; principal stays out of income/spending. Link an eligible existing payment instead of creating a second movement. |
+| **Companies & Services** | Separate contacts from providers, with 184 editable starter templates and locally bundled logos, including Hosting & Developer Services. |
+| **Beneficiary suggestions** | Find contacts while typing Title / Payee. Whole-word auto-tagging leaves conflicting matches unassigned for review. |
+| **Import receipts** | Optional private native notifications after a saved SMS/BML import. Tap to open the exact private transaction after unlock. |
+| **Transaction images** | Choose profile or account/currency outgoing headers; retain actual direction and existing explicit privacy choices. |
+| **Compatibility & recovery** | Spending Compass stays visible when collapsed. Explicit database migration and protected shared operations preserve history; interrupted confirmations can be recovered or cancelled. |
 
-New optional effects and Home cards remain off until selected. Customization is device-local. The financial schema, shared-data protocol and verified updater remain compatible.
+New Home cards remain off until enabled. Shared lending requires online confirmation, and both Together partners should update before using it. Existing records, sessions and appearance choices are retained through the in-place update.
 
 > Install over the existing app. No financial test records are bundled. Manual device and financial acceptance remain necessary before wider pilot distribution.
 
