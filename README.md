@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Quiet Canopy · 2.27.1** — A focused hotfix for Palm Canopy rendering and Favara bank-alert attribution, retaining the theme’s artwork, palette and controls.
+> **Clear Associations · 2.28.0** — Review beneficiary suggestions for existing Personal ledger entries, then approve individual matches or a selected batch without changing the money.
 
 ### Accounts and everyday ledger
 
@@ -81,6 +81,7 @@ Keep your private finances and a two-person household workspace in one app. Swit
 
 - **Interest-free lending.** Enable the optional Friends & Family Home card to record new loans, follow what is owed to you and log partial repayments. Personal and Together journals keep their own accounts and native currencies. Principal moves cash without inflating income or spending; reviewed links reuse an existing bank-imported payment instead of recording it twice.
 - **Companies & Services.** Keep regular providers separate from personal contacts. Browse 184 editable templates across Maldivian services, digital subscriptions and Hosting & Developer Services. Logos are bundled locally; adding a provider creates no payment or subscription. Favara, STELCO and MWSC are added once as private starter beneficiaries with configurable matching rules; existing matches and disabled choices are preserved.
+- **Review existing beneficiary tags.** Preview unassigned Personal ledger matches, including archives, and approve individual or selected matches. Existing recipients and financial values are preserved.
 - **Faster transaction assembly.** Search beneficiaries as you type a Title / Payee and select the intended recipient. Cautious auto-tagging leaves competing matches for review.
 - **Private import receipts.** Optional Android notifications confirm automatically saved bank alerts. Generic summaries are the default; a tap opens the specific private record after unlock. Payment details are a separate opt-in.
 - **Profile-aware transaction images.** Choose your profile or account/currency for the outgoing header, retain the actual sender/receiver direction and review privacy fields before sharing. Existing explicit identity exclusions remain respected.
@@ -109,25 +110,25 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.27.1 · Quiet Canopy** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.27.1-pilot) |
+| **Device pilot** | **2.28.0 · Clear Associations** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.28.0-pilot) |
 
 <details>
-<summary><strong>What changed in Quiet Canopy</strong></summary>
+<summary><strong>What changed in Clear Associations</strong></summary>
 
-**Keep the canopy. Reduce the repeated work.** This patch addresses the owner-reported Palm Canopy slowdown and missing Favara attribution without changing the theme’s artwork or palette.
+**Your history, reviewed before it changes.** Open **Settings → SMS & automation → Beneficiary Auto-Tagging → Review existing entries** to find unassigned Personal transactions that match your rules or beneficiaries.
 
 | Area | What changes |
 | :--- | :--- |
-| **Palm Canopy rendering** | Retained wallpaper and a bounded shared shadow field replace repeated curve rendering for each card and foreground redraw. |
-| **Open panels** | Unfocused windows keep a frozen shadow pose instead of following an active panel’s clock. |
-| **Theme work** | Stable colour and contrast results are retained; unchanged system-bar colours avoid redundant assignments. |
-| **Favara imports** | Both supported Favara SMS and BML Favara Funds Sent notifications use bank-only attribution. Older enabled expense-scoped Favara rules can cover imported outgoing transfers. |
-| **Respect your rules** | Disabled rules, competing recipients and manual own-account transfer protections stay in place. Existing entries are not silently retagged. |
-| **Review queue** | Private evidence lookup moves off the main thread and avoids sorting the complete queue for each approval. |
+| **Preview first** | See each saved entry, proposed beneficiary and matching basis. Nothing is selected or applied automatically. |
+| **Approve your choices** | Approve one entry or select a batch. Resolve competing beneficiaries explicitly before approval. |
+| **Older Favara entries** | Retained private bank alerts can supply matching evidence. Eligible older imported Favara titles without retained alerts are clearly labelled for careful review. |
+| **Protect the ledger** | Existing assignments, deleted entries, protected audit records and known own-account transfers are excluded. Amounts, accounts, dates, currencies, notes and balances stay unchanged. |
+| **Check again before saving** | Edited records are skipped and changed rules require a fresh scan. Review work runs locally, away from the UI thread. |
+| **Future rules and history** | Saving a rule can open this review; it no longer silently rewrites existing entries. |
 
-The same optional effects, three lighting presets and three intensity choices remain. Personal/Together records, authentication and the verified updater are retained.
+Archived posted entries can be reviewed too. Together records and private bank-message text are not uploaded by this workflow.
 
-> Install over the existing app. Actual S23 Ultra smoothness and live-bank import acceptance remain manual; no device FPS or battery improvement percentage is claimed.
+> Install over the existing app. Visual and real financial-record acceptance remain manual; do not uninstall or clear data to update.
 
 </details>
 
