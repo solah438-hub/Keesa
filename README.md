@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Kindred Ties · 2.26.0** — Interest-free Friends & Family lending, a Companies & Services catalogue, live beneficiary suggestions, clearer automatic-import receipts and profile-aware transaction images.
+> **Canopy Light · 2.27.0** — Palm Canopy botanical wallpaper and optional continuous palm shadows, complete scoped Cash Flow Trends categories, clearer bank-import status and a full-page auto-tag editor.
 
 ### Accounts and everyday ledger
 
@@ -79,7 +79,7 @@ Keep your private finances and a two-person household workspace in one app. Swit
 <summary><strong>Friends, family, companies & everyday payments</strong></summary>
 
 - **Interest-free lending.** Enable the optional Friends & Family Home card to record new loans, follow what is owed to you and log partial repayments. Personal and Together journals keep their own accounts and native currencies. Principal moves cash without inflating income or spending; reviewed links reuse an existing bank-imported payment instead of recording it twice.
-- **Companies & Services.** Keep regular providers separate from personal contacts. Browse 184 editable, add-as-needed templates across Maldivian services, digital subscriptions and Hosting & Developer Services. Logos are bundled locally; adding a provider creates no payment or subscription.
+- **Companies & Services.** Keep regular providers separate from personal contacts. Browse 184 editable templates across Maldivian services, digital subscriptions and Hosting & Developer Services. Logos are bundled locally; adding a provider creates no payment or subscription. Favara, STELCO and MWSC are added once as private starter beneficiaries with configurable matching rules; existing matches and disabled choices are preserved.
 - **Faster transaction assembly.** Search beneficiaries as you type a Title / Payee and select the intended recipient. Cautious auto-tagging leaves competing matches for review.
 - **Private import receipts.** Optional Android notifications confirm automatically saved bank alerts. Generic summaries are the default; a tap opens the specific private record after unlock. Payment details are a separate opt-in.
 - **Profile-aware transaction images.** Choose your profile or account/currency for the outgoing header, retain the actual sender/receiver direction and review privacy fields before sharing. Existing explicit identity exclusions remain respected.
@@ -108,26 +108,25 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.26.0 · Kindred Ties** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.26.0-pilot) |
+| **Device pilot** | **2.27.0 · Canopy Light** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.27.0-pilot) |
 
 <details>
-<summary><strong>What changed in Kindred Ties</strong></summary>
+<summary><strong>What changed in Canopy Light</strong></summary>
 
-**A clearer record of everyday trust.** Record interest-free money lent to friends and family, keep regular providers organised, and review bank imports with more confidence.
+**Island light, clearer everyday details.** Palm Canopy brings coconut crowns, botanical greens and warm filtered sunlight to Keesa, with new effects kept off until you choose them.
 
 | Area | What changes |
 | :--- | :--- |
-| **Friends & Family** | Optional expandable Home card and a dedicated Personal/Together lending journal. Track new loans, partial repayments and native-currency amounts owed. |
-| **Honest principal** | Account cash changes once; principal stays out of income/spending. Link an eligible existing payment instead of creating a second movement. |
-| **Companies & Services** | Separate contacts from providers, with 184 editable starter templates and locally bundled logos, including Hosting & Developer Services. |
-| **Beneficiary suggestions** | Find contacts while typing Title / Payee. Whole-word auto-tagging leaves conflicting matches unassigned for review. |
-| **Import receipts** | Optional private native notifications after a saved SMS/BML import. Tap to open the exact private transaction after unlock. |
-| **Transaction images** | Choose profile or account/currency outgoing headers; retain actual direction and existing explicit privacy choices. |
-| **Compatibility & recovery** | Spending Compass stays visible when collapsed. Explicit database migration and protected shared operations preserve history; interrupted confirmations can be recovered or cancelled. |
+| **Palm Canopy** | A sixteenth fixed tritone theme with matching original vector wallpaper, static or animated. |
+| **Continuous card shadows** | One coordinated canopy spans eligible cards. Choose Subtle, Balanced or Expressive intensity and Morning, Afternoon or Golden Hour lighting; wallpaper and shadow animation stay independent. |
+| **Complete category allocations** | Cash Flow Trends shows every scoped expense category, including compact zero-spend entries. A small Personal/Together selector keeps All-space figures separate. |
+| **Private import setup** | Missing Favara, STELCO and MWSC companies and starter rules are added once. Existing matches, edits and disabled rules are preserved; no payments are created. |
+| **Careful matching** | Rules can use private bank-message evidence; completed STELCO merchant wording is recognised. Authorization codes never count as payments, and manual own-account transfers stay separate. |
+| **Clearer controls** | Auto-tagging opens as a properly inset full page. Local status notices explain detectable power/background or BML-reader restrictions without promising every device restriction is detectable. |
 
-New Home cards remain off until enabled. Shared lending requires online confirmation, and both Together partners should update before using it. Existing records, sessions and appearance choices are retained through the in-place update.
+Appearance choices use Preview and Apply. Optional new effects stay off, security and consent panels stay plain, and Motion/accessibility/power limits retain a static fallback. Existing financial arithmetic, databases, Together sessions and the verified updater are retained.
 
-> Install over the existing app. No financial test records are bundled. Manual device and financial acceptance remain necessary before wider pilot distribution.
+> Install over the existing app. No financial test records are bundled. Device animation quality and financial/import acceptance remain manual checks before wider pilot distribution.
 
 </details>
 
