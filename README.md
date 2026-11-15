@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Canopy Light · 2.27.0** — Palm Canopy botanical wallpaper and optional continuous palm shadows, complete scoped Cash Flow Trends categories, clearer bank-import status and a full-page auto-tag editor.
+> **Quiet Canopy · 2.27.1** — A focused hotfix for Palm Canopy rendering and Favara bank-alert attribution, retaining the theme’s artwork, palette and controls.
 
 ### Accounts and everyday ledger
 
@@ -70,6 +70,7 @@ Keep your private finances and a two-person household workspace in one app. Swit
 - **App lock.** Set a local PIN, configure inactivity locking, and enable fingerprint unlock on supported devices. The Danger Zone offers a separate PIN-confirmed option to clear this device’s Keesa data.
 - **Backup and portability.** Export or import ledger data using CSV and JSON, export a readable financial statement, or use a passphrase-encrypted vault to back up and restore the financial database. Receipt images and app preferences are stored separately from the vault backup.
 - **Make it yours.** Open Personalization Studio for light/dark/system appearance, Maldivian craft and heritage tritone palettes, static or living wallpapers, custom images, saved looks, per-space icon collections, Home card ordering, Haptic Studio, device-wide Motion Preferences and per-space Navigation Studio. Search nested Settings to find individual controls. Legacy and first-ten palettes receive Dhoani once in 2.24.0; the latest five heritage selections and unrelated preferences stay intact. Themes use three fixed colors. Optional card artwork, entry-panel decorations and their independent motion controls stay under Preview and Apply.
+- **Palm Canopy.** A sixteenth botanical tritone theme pairs original coconut-palm artwork with static or living wallpaper and optional continuous card shadows. Preview three intensity and three lighting choices; wallpaper/shadow animation stay independent and respect Motion/accessibility limits.
 - **Guided setup and help.** Onboarding offers optional camera/gallery portraits and theme, matching wallpaper, motion and card-design previews before Apply. Help & FAQ in Settings explains complex financial and sharing flows. The optional expandable Spending Compass Home card starts off until enabled.
 - **Private identity and shareable records.** Set a device-local profile photo, then choose whether transaction images include it or your name. Review sender/receiver details and optional fields before saving or sharing a plain, craft-decorated or illustrated static image. Portraits are not uploaded to Together.
 
@@ -108,25 +109,25 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.27.0 · Canopy Light** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.27.0-pilot) |
+| **Device pilot** | **2.27.1 · Quiet Canopy** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.27.1-pilot) |
 
 <details>
-<summary><strong>What changed in Canopy Light</strong></summary>
+<summary><strong>What changed in Quiet Canopy</strong></summary>
 
-**Island light, clearer everyday details.** Palm Canopy brings coconut crowns, botanical greens and warm filtered sunlight to Keesa, with new effects kept off until you choose them.
+**Keep the canopy. Reduce the repeated work.** This patch addresses the owner-reported Palm Canopy slowdown and missing Favara attribution without changing the theme’s artwork or palette.
 
 | Area | What changes |
 | :--- | :--- |
-| **Palm Canopy** | A sixteenth fixed tritone theme with matching original vector wallpaper, static or animated. |
-| **Continuous card shadows** | One coordinated canopy spans eligible cards. Choose Subtle, Balanced or Expressive intensity and Morning, Afternoon or Golden Hour lighting; wallpaper and shadow animation stay independent. |
-| **Complete category allocations** | Cash Flow Trends shows every scoped expense category, including compact zero-spend entries. A small Personal/Together selector keeps All-space figures separate. |
-| **Private import setup** | Missing Favara, STELCO and MWSC companies and starter rules are added once. Existing matches, edits and disabled rules are preserved; no payments are created. |
-| **Careful matching** | Rules can use private bank-message evidence; completed STELCO merchant wording is recognised. Authorization codes never count as payments, and manual own-account transfers stay separate. |
-| **Clearer controls** | Auto-tagging opens as a properly inset full page. Local status notices explain detectable power/background or BML-reader restrictions without promising every device restriction is detectable. |
+| **Palm Canopy rendering** | Retained wallpaper and a bounded shared shadow field replace repeated curve rendering for each card and foreground redraw. |
+| **Open panels** | Unfocused windows keep a frozen shadow pose instead of following an active panel’s clock. |
+| **Theme work** | Stable colour and contrast results are retained; unchanged system-bar colours avoid redundant assignments. |
+| **Favara imports** | Both supported Favara SMS and BML Favara Funds Sent notifications use bank-only attribution. Older enabled expense-scoped Favara rules can cover imported outgoing transfers. |
+| **Respect your rules** | Disabled rules, competing recipients and manual own-account transfer protections stay in place. Existing entries are not silently retagged. |
+| **Review queue** | Private evidence lookup moves off the main thread and avoids sorting the complete queue for each approval. |
 
-Appearance choices use Preview and Apply. Optional new effects stay off, security and consent panels stay plain, and Motion/accessibility/power limits retain a static fallback. Existing financial arithmetic, databases, Together sessions and the verified updater are retained.
+The same optional effects, three lighting presets and three intensity choices remain. Personal/Together records, authentication and the verified updater are retained.
 
-> Install over the existing app. No financial test records are bundled. Device animation quality and financial/import acceptance remain manual checks before wider pilot distribution.
+> Install over the existing app. Actual S23 Ultra smoothness and live-bank import acceptance remain manual; no device FPS or battery improvement percentage is claimed.
 
 </details>
 
