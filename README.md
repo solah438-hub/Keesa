@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Clear Associations · 2.28.0** — Review beneficiary suggestions for existing Personal ledger entries, then approve individual matches or a selected batch without changing the money.
+> **Balanced Promises · 2.29.0** — Track money lent and borrowed separately, review clearer beneficiary histories and approve each backdated entry explicitly.
 
 ### Accounts and everyday ledger
 
@@ -29,6 +29,8 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 - **Income, expenses, and transfers.** Move money between your own accounts without counting it as income or spending. For cross-currency transfers, record the actual amounts sent and received and keep the resulting exchange rate.
 - **Top Up and Adjust Balance.** Distinguish new income from funds you already held. Reconcile an account to its actual balance with a dated correction and a reason, preserving the original ledger and keeping the correction out of income and spending reports.
 - **Receipts and beneficiaries.** Attach receipt images, split a purchase across categories, and view the income and expenses linked to each beneficiary. Record income from a beneficiary directly into one of your accounts.
+- **Backdated entries.** Select the actual transaction date and approve each past-date save explicitly. Unchanged old edits retain their timestamp, and draft approval is never reused.
+- **Beneficiary histories.** Copy an unmasked account number, inspect familiar ledger rows and open payment details over the same profile. Gross income and expense totals retain MVR/USD separately, excluding transfers and principal.
 - **Ledger housekeeping.** Archive entries to hide them from the active ledger while retaining their financial effect. Trash and refund actions are available for eligible transactions.
 
 <details>
@@ -79,14 +81,14 @@ Keep your private finances and a two-person household workspace in one app. Swit
 <details>
 <summary><strong>Friends, family, companies & everyday payments</strong></summary>
 
-- **Interest-free lending.** Enable the optional Friends & Family Home card to record new loans, follow what is owed to you and log partial repayments. Personal and Together journals keep their own accounts and native currencies. Principal moves cash without inflating income or spending; reviewed links reuse an existing bank-imported payment instead of recording it twice.
+- **Interest-free lending and borrowing.** Enable the optional Friends & Family Home card to record new money lent or borrowed, follow amounts owed in both directions and log partial repayments. Personal and Together journals keep separate accounts and native currencies. Principal moves cash without inflating income or spending; reviewed links reuse an existing bank-imported payment instead of recording it twice. Optional beneficiary-profile summaries open the filtered journal and stay hidden when no history exists.
 - **Companies & Services.** Keep regular providers separate from personal contacts. Browse 184 editable templates across Maldivian services, digital subscriptions and Hosting & Developer Services. Logos are bundled locally; adding a provider creates no payment or subscription. Favara, STELCO and MWSC are added once as private starter beneficiaries with configurable matching rules; existing matches and disabled choices are preserved.
 - **Review existing beneficiary tags.** Preview unassigned Personal ledger matches, including archives, and approve individual or selected matches. Existing recipients and financial values are preserved.
 - **Faster transaction assembly.** Search beneficiaries as you type a Title / Payee and select the intended recipient. Cautious auto-tagging leaves competing matches for review.
 - **Private import receipts.** Optional Android notifications confirm automatically saved bank alerts. Generic summaries are the default; a tap opens the specific private record after unlock. Payment details are a separate opt-in.
 - **Profile-aware transaction images.** Choose your profile or account/currency for the outgoing header, retain the actual sender/receiver direction and review privacy fields before sharing. Existing explicit identity exclusions remain respected.
 
-Both Together partners should update before using shared lending. Shared money movements require an online confirmation; the journal offers recovery or cancellation when a result is interrupted.
+Both Together partners should update before using shared borrowing. Shared money movements require an online confirmation; the journal offers recovery or cancellation when a result is interrupted.
 
 </details>
 
@@ -110,25 +112,26 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.28.0 · Clear Associations** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.28.0-pilot) |
+| **Device pilot** | **2.29.0 · Balanced Promises** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.29.0-pilot) |
 
 <details>
-<summary><strong>What changed in Clear Associations</strong></summary>
+<summary><strong>What changed in Balanced Promises</strong></summary>
 
-**Your history, reviewed before it changes.** Open **Settings → SMS & automation → Beneficiary Auto-Tagging → Review existing entries** to find unassigned Personal transactions that match your rules or beneficiaries.
+**Keep each promise in its own direction.** Friends & Family now distinguishes money owed to you from money you owe.
 
 | Area | What changes |
 | :--- | :--- |
-| **Preview first** | See each saved entry, proposed beneficiary and matching basis. Nothing is selected or applied automatically. |
-| **Approve your choices** | Approve one entry or select a batch. Resolve competing beneficiaries explicitly before approval. |
-| **Older Favara entries** | Retained private bank alerts can supply matching evidence. Eligible older imported Favara titles without retained alerts are clearly labelled for careful review. |
-| **Protect the ledger** | Existing assignments, deleted entries, protected audit records and known own-account transfers are excluded. Amounts, accounts, dates, currencies, notes and balances stay unchanged. |
-| **Check again before saving** | Edited records are skipped and changed rules require a fresh scan. Review work runs locally, away from the UI thread. |
-| **Future rules and history** | Saving a rule can open this review; it no longer silently rewrites existing entries. |
+| **Borrowing journal** | Receive principal, record partial repayments and preserve MVR/USD liabilities without treating principal as income/spending. Reviewed links avoid recording a bank payment twice. |
+| **Beneficiary profiles** | Copy an unmasked account number with Keesa’s toast, see native-currency totals and familiar ledger rows, then open details without losing your place. |
+| **Optional lending summaries** | Enable journal information in Beneficiary layouts. Separate both directions from regular payments; nothing appears for a beneficiary without journal history. |
+| **Backdated entry** | Choose an actual date and approve each past-date save. No future dates or reusable draft approval. |
+| **Together categories** | Manage explicitly labelled Personal/Together catalogues. Transaction selectors keep the correct native ownership and type. |
+| **Navigation and help** | Retained page positions, question-only search within Help & FAQ and smooth Spending Compass tab transitions. |
+| **Artwork coverage** | Measured full-card decoration bounds and an independent spendable-summary artwork gate under the existing global setting. |
 
-Archived posted entries can be reviewed too. Together records and private bank-message text are not uploaded by this workflow.
+Existing private categories are not silently copied to Together. Both partners must update before shared borrowing. Room migrates existing loans as Lent; old financial data is preserved.
 
-> Install over the existing app. Visual and real financial-record acceptance remain manual; do not uninstall or clear data to update.
+> Install over the existing app. Financial, two-partner and native device acceptance remain manual; no financial fixtures are bundled.
 
 </details>
 
