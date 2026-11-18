@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Incoming Tide · 2.29.2** — Recognizes MIB’s incoming fund transfer SMS and preserves its amount, currency, timestamp and reference.
+> **Tidal Confluence · 2.30.0** — Cash Flow Trends can now show Personal and Together data in one view.
 
 ### Accounts and everyday ledger
 
@@ -112,14 +112,13 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.29.2 · Incoming Tide** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.29.2-pilot) |
+| **Device pilot** | **2.30.0 · Tidal Confluence** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.30.0-pilot) |
 
 <details>
-<summary><strong>What changed in Incoming Tide</strong></summary>
+<summary><strong>What changed in Tidal Confluence</strong></summary>
 
-- Added support for the MIB SMS that confirms a fund transfer to your account.
-- The credited amount, currency, masked account, transaction timestamp and bank reference flow through the configured private auto-add or manual review path.
-- The reader still supports the existing bank alert formats.
+- Select **All**, **Personal**, or **Together** in Cash Flow Trends. Switching scope keeps the current tab open.
+- **Flow** adds inflow and outflow across the two spaces. **Categories** shows allocations from both, labelled by source. **Outlook** calculates net surplus and savings efficiency from the combined figures.
 
 </details>
 
