@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Balanced Promises · 2.29.0** — Track money lent and borrowed separately, review clearer beneficiary histories and approve each backdated entry explicitly.
+> **Harbour Signals · 2.29.1** — A full-page SMS Transaction Reader with repaired manual scanning, posting and review feedback.
 
 ### Accounts and everyday ledger
 
@@ -112,26 +112,14 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.29.0 · Balanced Promises** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.29.0-pilot) |
+| **Device pilot** | **2.29.1 · Harbour Signals** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.29.1-pilot) |
 
 <details>
-<summary><strong>What changed in Balanced Promises</strong></summary>
+<summary><strong>What changed in Harbour Signals</strong></summary>
 
-**Keep each promise in its own direction.** Friends & Family now distinguishes money owed to you from money you owe.
-
-| Area | What changes |
-| :--- | :--- |
-| **Borrowing journal** | Receive principal, record partial repayments and preserve MVR/USD liabilities without treating principal as income/spending. Reviewed links avoid recording a bank payment twice. |
-| **Beneficiary profiles** | Copy an unmasked account number with Keesa’s toast, see native-currency totals and familiar ledger rows, then open details without losing your place. |
-| **Optional lending summaries** | Enable journal information in Beneficiary layouts. Separate both directions from regular payments; nothing appears for a beneficiary without journal history. |
-| **Backdated entry** | Choose an actual date and approve each past-date save. No future dates or reusable draft approval. |
-| **Together categories** | Manage explicitly labelled Personal/Together catalogues. Transaction selectors keep the correct native ownership and type. |
-| **Navigation and help** | Retained page positions, question-only search within Help & FAQ and smooth Spending Compass tab transitions. |
-| **Artwork coverage** | Measured full-card decoration bounds and an independent spendable-summary artwork gate under the existing global setting. |
-
-Existing private categories are not silently copied to Together. Both partners must update before shared borrowing. Room migrates existing loans as Lent; old financial data is preserved.
-
-> Install over the existing app. Financial, two-partner and native device acceptance remain manual; no financial fixtures are bundled.
+- Scan older bank messages by date or paste one into the full-page SMS Transaction Reader.
+- Review detected alerts privately, choose a matching-currency Personal account and approve one or a batch.
+- The reader explains permission issues, rejected messages and duplicates. Supported historical dates stay with their alerts.
 
 </details>
 
