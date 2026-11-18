@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Tidal Confluence · 2.30.0** — Cash Flow Trends can now show Personal and Together data in one view.
+> **Heritage Light · 2.31.0** — Theme-specific artwork flows across cards, and Pilot Updates uses clearer text colors.
 
 ### Accounts and everyday ledger
 
@@ -112,13 +112,13 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.30.0 · Tidal Confluence** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.30.0-pilot) |
+| **Device pilot** | **2.31.0 · Heritage Light** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.31.0-pilot) |
 
 <details>
-<summary><strong>What changed in Tidal Confluence</strong></summary>
+<summary><strong>What changed in Heritage Light</strong></summary>
 
-- Select **All**, **Personal**, or **Together** in Cash Flow Trends. Switching scope keeps the current tab open.
-- **Flow** adds inflow and outflow across the two spaces. **Categories** shows allocations from both, labelled by source. **Outlook** calculates net surplus and savings efficiency from the combined figures.
+- Fifteen Maldivian themes now offer continuous card artwork with their own motifs and lighting. Open **Artwork & movement** to preview and apply it.
+- Pilot update screens and Release History match text colors to their own surfaces for clearer headings, notes, and status messages.
 
 </details>
 
