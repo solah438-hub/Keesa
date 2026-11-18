@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Harbour Signals · 2.29.1** — A full-page SMS Transaction Reader with repaired manual scanning, posting and review feedback.
+> **Incoming Tide · 2.29.2** — Recognizes MIB’s incoming fund transfer SMS and preserves its amount, currency, timestamp and reference.
 
 ### Accounts and everyday ledger
 
@@ -112,14 +112,14 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.29.1 · Harbour Signals** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.29.1-pilot) |
+| **Device pilot** | **2.29.2 · Incoming Tide** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.29.2-pilot) |
 
 <details>
-<summary><strong>What changed in Harbour Signals</strong></summary>
+<summary><strong>What changed in Incoming Tide</strong></summary>
 
-- Scan older bank messages by date or paste one into the full-page SMS Transaction Reader.
-- Review detected alerts privately, choose a matching-currency Personal account and approve one or a batch.
-- The reader explains permission issues, rejected messages and duplicates. Supported historical dates stay with their alerts.
+- Added support for the MIB SMS that confirms a fund transfer to your account.
+- The credited amount, currency, masked account, transaction timestamp and bank reference flow through the configured private auto-add or manual review path.
+- The reader still supports the existing bank alert formats.
 
 </details>
 
