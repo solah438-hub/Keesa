@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Island Light · 2.32.0** — Original continuous artwork, a redesigned Palm Canopy wallpaper, and searchable Help.
+> **Harbour Ledger · 2.33.0** — Read Maldives Islamic Bank transfer slips offline and confirm them before adding them to the ledger.
 
 ### Accounts and everyday ledger
 
@@ -29,6 +29,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 - **Income, expenses, and transfers.** Move money between your own accounts without counting it as income or spending. For cross-currency transfers, record the actual amounts sent and received and keep the resulting exchange rate.
 - **Top Up and Adjust Balance.** Distinguish new income from funds you already held. Reconcile an account to its actual balance with a dated correction and a reason, preserving the original ledger and keeping the correction out of income and spending reports.
 - **Receipts and beneficiaries.** Attach receipt images, split a purchase across categories, and view the income and expenses linked to each beneficiary. Record income from a beneficiary directly into one of your accounts.
+- **MIB bank slips.** Import an image or PDF, take a photo, or share a slip from another Android app. Confirm the source account and payment details. Keesa keeps the original slip on the importing device and checks matching Favara SMS references.
 - **Backdated entries.** Select the actual transaction date and approve each past-date save explicitly. Unchanged old edits retain their timestamp, and draft approval is never reused.
 - **Beneficiary histories.** Copy an unmasked account number, inspect familiar ledger rows and open payment details over the same profile. Gross income and expense totals retain MVR/USD separately, excluding transfers and principal.
 - **Ledger housekeeping.** Archive entries to hide them from the active ledger while retaining their financial effect. Trash and refund actions are available for eligible transactions.
@@ -112,14 +113,14 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.32.0 · Island Light** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.32.0-pilot) |
+| **Device pilot** | **2.33.0 · Harbour Ledger** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.33.0-pilot) |
 
 <details>
-<summary><strong>What changed in Island Light</strong></summary>
+<summary><strong>What changed in Harbour Ledger</strong></summary>
 
-- Fifteen heritage themes have original scenes that continue across cards. Palm Canopy has a new coconut palm wallpaper.
-- **Appearance & Themes** has clearer categories and separate wallpaper and card-artwork previews. **Help & FAQ** adds search across 59 questions.
-- Ledger search and reminder processing do more work in the background. The release also strengthens PIN checks and encrypted vault recovery.
+- Import both the green **Success** MIB slip and the orange **Processed** copy. OCR works offline.
+- Look over the original payment details and account before saving. Keesa checks the final number in Favara SMS references to avoid counting the same payment twice.
+- Onboarding uses contrast-checked text and accent colors over the selected background.
 
 </details>
 
