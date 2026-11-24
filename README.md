@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Harbour Ledger · 2.33.0** — Read Maldives Islamic Bank transfer slips offline and confirm them before adding them to the ledger.
+> **Atoll Dispatch · 2.34.0** — Choose which official Keesa messages you receive in Personal and Together.
 
 ### Accounts and everyday ledger
 
@@ -113,14 +113,14 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.33.0 · Harbour Ledger** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.33.0-pilot) |
+| **Device pilot** | **2.34.0 · Atoll Dispatch** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.34.0-pilot) |
 
 <details>
-<summary><strong>What changed in Harbour Ledger</strong></summary>
+<summary><strong>What changed in Atoll Dispatch</strong></summary>
 
-- Import both the green **Success** MIB slip and the orange **Processed** copy. OCR works offline.
-- Look over the original payment details and account before saving. Keesa checks the final number in Favara SMS references to avoid counting the same payment twice.
-- Onboarding uses contrast-checked text and accent colors over the selected background.
+- Opt in under **Settings → Notifications → Official Keesa messages** and choose from five push categories.
+- Contextual in-app messages and their Firebase Analytics collection require a separate opt-in.
+- Finance reminders, bank import receipts and pilot update reminders retain their own controls.
 
 </details>
 
