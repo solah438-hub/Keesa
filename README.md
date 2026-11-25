@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Atoll Dispatch · 2.34.0** — Choose which official Keesa messages you receive in Personal and Together.
+> **Island Passage · 2.35.0** — Start a Personal Journey, organize destinations and set up travel wallets in their own currencies.
 
 ### Accounts and everyday ledger
 
@@ -113,14 +113,14 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.34.0 · Atoll Dispatch** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.34.0-pilot) |
+| **Device pilot** | **2.35.0 · Island Passage** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.35.0-pilot) |
 
 <details>
-<summary><strong>What changed in Atoll Dispatch</strong></summary>
+<summary><strong>What changed in Island Passage</strong></summary>
 
-- Opt in under **Settings → Notifications → Official Keesa messages** and choose from five push categories.
-- Contextual in-app messages and their Firebase Analytics collection require a separate opt-in.
-- Finance reminders, bank import receipts and pilot update reminders retain their own controls.
+- Open **Settings → Keesa Roam** in Personal, or enable its optional Home card.
+- Create a Journey for one country, add destinations and set up named travel wallets.
+- Pause a Journey and resume it later. Wallet funding, travel transactions, lending and trip completion are still in development.
 
 </details>
 
