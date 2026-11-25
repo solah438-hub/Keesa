@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Farther Shores · 2.36.0** — Fund and track Journeys in Keesa Roam, and create your own light and dark palettes with Keesa Signature Themes.
+> **Island Passage · 2.35.0** — Start a Personal Journey, organize destinations and set up travel wallets in their own currencies.
 
 ### Accounts and everyday ledger
 
@@ -113,14 +113,14 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.36.0 · Farther Shores** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.36.0-pilot) |
+| **Device pilot** | **2.35.0 · Island Passage** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.35.0-pilot) |
 
 <details>
-<summary><strong>What changed in Farther Shores</strong></summary>
+<summary><strong>What changed in Island Passage</strong></summary>
 
-- Fund travel wallets, track spending and plan bookings in **Keesa Roam**. Retain leftover cash and choose how outstanding loans are repaid after the trip.
-- Choose **Keesa Living Themes** for illustrated scenes, or explore **Keesa Signature Themes** for editable light and dark palettes and static material wallpapers.
-- Find walkthroughs in **Settings → Help & FAQ**.
+- Open **Settings → Keesa Roam** in Personal, or enable its optional Home card.
+- Create a Journey for one country, add destinations and set up named travel wallets.
+- Pause a Journey and resume it later. Wallet funding, travel transactions, lending and trip completion are still in development.
 
 </details>
 
