@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Farther Shores · 2.36.0** — Fund and track Journeys in Keesa Roam, and create your own light and dark palettes with Keesa Signature Themes.
+> **Open Passage · 2.37.0** — Give each trip its own Home dashboard, plan in advance and follow travel cash from your USD wallet through to your return.
 
 ### Accounts and everyday ledger
 
@@ -51,10 +51,26 @@ With permission, Keesa parses supported bank SMS and BML Banking / BML Mobile Fu
 | **Loans and financing** | Track facilities, due dates, linked debit accounts, and repayments. Use conventional APR or Murabaha calculations when setting up a facility and maintain the outstanding balance manually. |
 | **Spending Compass** | Overview, Analytics, Budgets and Insights; selected dates, MVR/USD/combined spending, ranked categories and daily/weekly/monthly trends. Monthly category limits keep their MVR basis. Open supporting transactions; Personal and Together analytics stay separate. |
 | **Optional notifications** | Get on-device alerts for budget thresholds, upcoming subscriptions, unusual spending, and goal milestones. Unusual-spending alerts use your local history when enough is available. |
+| **Official Keesa messages** | Opt in to announcements, maintenance, app updates, security and information. Contextual in-app messages and their Analytics setting have separate consent. |
+
+### Keesa Roam
+
+Open **Settings → Keesa Roam → Open Journeys** from Personal or Together. You can also enable the Roam card in Dashboard Layout. Choose **Switch to Journey Home** for the trip’s own dashboard. Start or pause independently, and return to your usual Home whenever you like.
+
+| Feature | What you can do |
+| :--- | :--- |
+| **Set up a trip** | Choose a country and reporting currency, add destinations, set optional dates and customize trip categories. Set budgets and make planning edits while paused. |
+| **Fund and exchange travel cash** | Start with a USD wallet and add destination-currency wallets. Record the actual amounts sent and received, the booked rate and any separate fee. Reconcile funding, returns and exchanges against the linked ledger and wallet records. |
+| **Track the trip** | Trip pulse shows the remaining budget, planned days, a daily allowance and wallets that may be running low based on recent purchases. Record receipts and see spending by day, destination or category. |
+| **Plan and share expenses** | Track estimates, prepaid bookings and refundable deposits. Link eligible bank entries to avoid a duplicate debit. Split purchases, record short-term lending and export a Journey statement. |
+| **Review and complete** | Check cash to carry forward, unpaid loans and deposits. Retain leftover currencies and choose whether outstanding loans should be repaid in a different currency at a reviewed rate. |
+| **Together readiness and history** | See whether shared Roam is waiting for partner setup, sync or confirmation. Review who made confirmed changes and when. Both partners should update and open Roam in Together. |
+
+Delete an empty Journey or archive one with financial history. Travel cash stays part of total wealth and separate from everyday spendable funds. Keesa records movements that you carry out separately with your bank or exchange provider.
 
 ### Pilot updates
 
-Keesa checks the public GitHub pilot channel about once a day, with a manual **Check for updates** action in **Settings → About Keesa**. See the version and release notes before downloading, follow download progress, and install through Android’s confirmation screen. Downloads are checked against their published SHA-256, package, version, and the installed signing certificate. Updates are optional, and dismissed versions stay dismissed during automatic checks.
+Keesa checks the public GitHub pilot channel about once a day, with a manual **Check for updates** action in **Settings → About Keesa**. See the version and release notes before downloading, follow download progress, and install through Android’s confirmation screen. Downloads are checked against their published SHA-256, package, version, and the installed signing certificate. Updates are optional. Dismissible reminders are spaced at least 24 hours apart and end when Keesa is up to date or the reminder sequence finishes.
 
 The first updater-enabled build needs to be installed manually over the existing app. Android may ask you to allow Keesa to install unknown apps before a later update.
 
@@ -71,8 +87,10 @@ Keep your private finances and a two-person household workspace in one app. Swit
 <summary><strong>App lock, backups, and appearance</strong></summary>
 
 - **App lock.** Set a local PIN, configure inactivity locking, and enable fingerprint unlock on supported devices. The Danger Zone offers a separate PIN-confirmed option to clear this device’s Keesa data.
-- **Backup and portability.** Export or import ledger data using CSV and JSON, export a readable financial statement, or use a passphrase-encrypted vault to back up and restore the financial database. Receipt images and app preferences are stored separately from the vault backup.
-- **Make it yours.** Open Personalization Studio for light/dark/system appearance, Maldivian craft and heritage tritone palettes, static or living wallpapers, custom images, saved looks, per-space icon collections, Home card ordering, Haptic Studio, device-wide Motion Preferences and per-space Navigation Studio. Search nested Settings to find individual controls. Legacy and first-ten palettes receive Dhoani once in 2.24.0; the latest five heritage selections and unrelated preferences stay intact. Themes use three fixed colors. Optional card artwork, entry-panel decorations and their independent motion controls stay under Preview and Apply.
+- **Backup and portability.** Export or import ledger data using CSV and JSON, export a readable statement, or restore a passphrase-encrypted vault. Personal vaults include available Journey receipts up to 24 MB. Other receipt files and device preferences remain separate. Together recovers supported shared records through sync; its receipt files stay on the importing device.
+- **Keesa Living Themes.** Choose Maldivian heritage palettes with three authored colors, static or animated illustrations and optional coordinated card artwork. Preview and apply wallpaper and panel effects through Personalization Studio.
+- **Keesa Signature Themes.** Preview Nocturne, Verdelune and Obsidian, or build a local theme with separate light and dark palettes and a static material finish. Save a theme independently and apply it to Personal, Together or All. Your previous look remains available.
+- **Personalization controls.** Choose light, dark or system appearance, custom backgrounds, per-space icon collections, Home card order, Haptic Studio, Motion Preferences and Navigation Studio. Settings search finds controls inside nested categories.
 - **Palm Canopy.** A sixteenth botanical tritone theme pairs original coconut-palm artwork with static or living wallpaper and optional continuous card shadows. Preview three intensity and three lighting choices; wallpaper/shadow animation stay independent and respect Motion/accessibility limits.
 - **Guided setup and help.** Onboarding offers optional camera/gallery portraits and theme, matching wallpaper, motion and card-design previews before Apply. Help & FAQ in Settings explains complex financial and sharing flows. The optional expandable Spending Compass Home card starts off until enabled.
 - **Private identity and shareable records.** Set a device-local profile photo, then choose whether transaction images include it or your name. Review sender/receiver details and optional fields before saving or sharing a plain, craft-decorated or illustrated static image. Portraits are not uploaded to Together.
@@ -113,14 +131,15 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.36.0 · Farther Shores** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.36.0-pilot) |
+| **Device pilot** | **2.37.0 · Open Passage** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.37.0-pilot) |
 
 <details>
-<summary><strong>What changed in Farther Shores</strong></summary>
+<summary><strong>What changed in Open Passage</strong></summary>
 
-- Fund travel wallets, track spending and plan bookings in **Keesa Roam**. Retain leftover cash and choose how outstanding loans are repaid after the trip.
-- Choose **Keesa Living Themes** for illustrated scenes, or explore **Keesa Signature Themes** for editable light and dark palettes and static material wallpapers.
-- Find walkthroughs in **Settings → Help & FAQ**.
+- **Journey Home** adds a dedicated dashboard, a default USD wallet and planning controls that stay available while paused.
+- **Trip pulse**, **Reconcile wallet movements** and **End-of-trip review** help you check what you recorded before and during your trip.
+- **Shared Roam status and activity log** show setup and sync progress, and attribute confirmed changes to the partner who made them.
+- **Help & FAQ → Travel & Roam** explains the new controls, confirmed saves and recovery.
 
 </details>
 
