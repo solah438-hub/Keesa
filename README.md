@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Harbour Bearing · 2.38.0** — See travel wallets and your trip ledger in Keesa’s familiar Home layout, and fund your travel USD wallet directly.
+> **Harbour Lights · 2.38.1** — Use the regular plus menu for everyday transactions and a dedicated airplane button for Journey Actions.
 
 ### Accounts and everyday ledger
 
@@ -55,7 +55,7 @@ With permission, Keesa parses supported bank SMS and BML Banking / BML Mobile Fu
 
 ### Keesa Roam
 
-Open **Settings → Keesa Roam → Open Journeys** from Personal or Together. You can also enable the Roam card in Dashboard Layout. Choose **Open Journey Home** for swipeable balance cards, a wallet carousel, Trip pulse and recent activity. The Ledger tab follows the selected Journey. Choose **Exit Journey** to return to your regular dashboard and ledger. Start and pause are separate controls in **Manage Journey**.
+Open **Settings → Keesa Roam → Open Journeys** from Personal or Together. You can also enable the Roam card in Dashboard Layout. Tap a Journey card for swipeable balances, a wallet carousel, Trip pulse and recent activity. The Ledger tab follows the selected Journey. Use the **airplane button** for trip actions and the **plus button** for regular Income, Expense and Transfer. Choose **Exit Journey** to return to your regular dashboard and ledger. Start and pause live in **Manage Journey**.
 
 | Feature | What you can do |
 | :--- | :--- |
@@ -132,15 +132,14 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.38.0 · Harbour Bearing** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.38.0-pilot) |
+| **Device pilot** | **2.38.1 · Harbour Lights** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.38.1-pilot) |
 
 <details>
-<summary><strong>What changed in Harbour Bearing</strong></summary>
+<summary><strong>What changed in Harbour Lights</strong></summary>
 
-- **Journey Home** has swipeable balances, native-currency wallet cards, expandable Trip pulse and recent activity.
-- **Journey Ledger** stays with the selected trip and includes date groups, filters, search and links to available bank entries.
-- **Transfer USD to Journey** keeps both sides of the movement in USD. Together funding uses a shared USD account and requires online confirmation.
-- **Help & FAQ → Travel & Roam** explains the trip dashboard, ledger and USD funding.
+- **Regular transactions** are available from the usual plus menu on Journey Home and Ledger.
+- **Journey Actions** opens from a dedicated airplane button. The finance space switcher remains available in the main navigation when Together is connected.
+- **Roam screens** use Keesa’s themed cards, form layout and accessible Back control. **Help & FAQ → Travel & Roam** explains both action buttons.
 
 </details>
 
