@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Open Passage · 2.37.0** — Give each trip its own Home dashboard, plan in advance and follow travel cash from your USD wallet through to your return.
+> **Harbour Bearing · 2.38.0** — See travel wallets and your trip ledger in Keesa’s familiar Home layout, and fund your travel USD wallet directly.
 
 ### Accounts and everyday ledger
 
@@ -55,12 +55,13 @@ With permission, Keesa parses supported bank SMS and BML Banking / BML Mobile Fu
 
 ### Keesa Roam
 
-Open **Settings → Keesa Roam → Open Journeys** from Personal or Together. You can also enable the Roam card in Dashboard Layout. Choose **Switch to Journey Home** for the trip’s own dashboard. Start or pause independently, and return to your usual Home whenever you like.
+Open **Settings → Keesa Roam → Open Journeys** from Personal or Together. You can also enable the Roam card in Dashboard Layout. Choose **Open Journey Home** for swipeable balance cards, a wallet carousel, Trip pulse and recent activity. The Ledger tab follows the selected Journey. Choose **Exit Journey** to return to your regular dashboard and ledger. Start and pause are separate controls in **Manage Journey**.
 
 | Feature | What you can do |
 | :--- | :--- |
 | **Set up a trip** | Choose a country and reporting currency, add destinations, set optional dates and customize trip categories. Set budgets and make planning edits while paused. |
-| **Fund and exchange travel cash** | Start with a USD wallet and add destination-currency wallets. Record the actual amounts sent and received, the booked rate and any separate fee. Reconcile funding, returns and exchanges against the linked ledger and wallet records. |
+| **Fund and exchange travel cash** | Start with a USD wallet and add destination-currency wallets. Use **Transfer USD to Journey** to record funding from a USD account or wallet in the same space. Record exchanges using actual amounts, the booked rate and any separate fee. |
+| **Journey Ledger** | Browse dated trip activity, search and filter by movement type, and open linked bank entries when available. Reconcile funding, returns and exchanges against the recorded wallet movements. |
 | **Track the trip** | Trip pulse shows the remaining budget, planned days, a daily allowance and wallets that may be running low based on recent purchases. Record receipts and see spending by day, destination or category. |
 | **Plan and share expenses** | Track estimates, prepaid bookings and refundable deposits. Link eligible bank entries to avoid a duplicate debit. Split purchases, record short-term lending and export a Journey statement. |
 | **Review and complete** | Check cash to carry forward, unpaid loans and deposits. Retain leftover currencies and choose whether outstanding loans should be repaid in a different currency at a reviewed rate. |
@@ -131,15 +132,15 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.37.0 · Open Passage** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.37.0-pilot) |
+| **Device pilot** | **2.38.0 · Harbour Bearing** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.38.0-pilot) |
 
 <details>
-<summary><strong>What changed in Open Passage</strong></summary>
+<summary><strong>What changed in Harbour Bearing</strong></summary>
 
-- **Journey Home** adds a dedicated dashboard, a default USD wallet and planning controls that stay available while paused.
-- **Trip pulse**, **Reconcile wallet movements** and **End-of-trip review** help you check what you recorded before and during your trip.
-- **Shared Roam status and activity log** show setup and sync progress, and attribute confirmed changes to the partner who made them.
-- **Help & FAQ → Travel & Roam** explains the new controls, confirmed saves and recovery.
+- **Journey Home** has swipeable balances, native-currency wallet cards, expandable Trip pulse and recent activity.
+- **Journey Ledger** stays with the selected trip and includes date groups, filters, search and links to available bank entries.
+- **Transfer USD to Journey** keeps both sides of the movement in USD. Together funding uses a shared USD account and requires online confirmation.
+- **Help & FAQ → Travel & Roam** explains the trip dashboard, ledger and USD funding.
 
 </details>
 
