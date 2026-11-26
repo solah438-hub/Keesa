@@ -132,7 +132,7 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.38.1 · Harbour Lights** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.38.1-pilot) |
+| **Device pilot** | **2.40.0 · Island Crossing** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.40.0-pilot) |
 
 <details>
 <summary><strong>What changed in Harbour Lights</strong></summary>
