@@ -21,7 +21,7 @@ Keesa brings bank accounts, cash wallets, savings goals, and upcoming payments i
 | :--- | :--- | :--- |
 | [Accounts, transfers, receipts, and bank SMS](#accounts-and-everyday-ledger) | [Budgets, goals, bills, and financing](#planning-and-insights) | [Private and joint finances in Keesa Together](#keesa-together) |
 
-> **Harbour Lights · 2.38.1** — Use the regular plus menu for everyday transactions and a dedicated airplane button for Journey Actions.
+> **Clear Settlements · 2.41.0** — Search historical repayments, allocate one transfer to several loans and mark a loan paid without posting cash again.
 
 ### Accounts and everyday ledger
 
@@ -132,14 +132,14 @@ The [Keesa development tracker](https://keesa.ct.ws/) is the public home for pro
 
 | Track | Version | Where to look |
 | :--- | :--- | :--- |
-| **Device pilot** | **2.40.0 · Island Crossing** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.40.0-pilot) |
+| **Device pilot** | **2.41.0 · Clear Settlements** | [Pilot APK and release notes](https://github.com/solah438-hub/Keesa/releases/tag/v2.41.0-pilot) |
 
 <details>
-<summary><strong>What changed in Harbour Lights</strong></summary>
+<summary><strong>What changed in Clear Settlements</strong></summary>
 
-- **Regular transactions** are available from the usual plus menu on Journey Home and Ledger.
-- **Journey Actions** opens from a dedicated airplane button. The finance space switcher remains available in the main navigation when Together is connected.
-- **Roam screens** use Keesa’s themed cards, form layout and accessible Back control. **Help & FAQ → Travel & Roam** explains both action buttons.
+- Find Friends & Family loans by person or status and open a dedicated payment timeline.
+- Search archived and current ledger payments across accounts, then distribute the amount across loans.
+- Record a journal-only settlement when the money was logged separately, or correct an allocation without another cash movement.
 
 </details>
 
